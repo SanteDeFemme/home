@@ -9,5 +9,5 @@ function findBmi() {
     } else if (results >= 18.5 && results <= 24.9) {
         resultsStr = "Healthy";
     }
-    document.getElementById("result").innerHTML += resultsStr;
+    document.getElementById("result").innerHTML += " - " + resultsStr;
 }
