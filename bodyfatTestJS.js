@@ -1,5 +1,7 @@
 function findBmi() {
-    var height = document.getElementById("height").value;
+    var heightF = document.getElementById("heightF").value;
+    var heightI = document.getElementById("heightI").value;
+    var height = (heightF * 12) + heightI;
     var weight = document.getElementById("weight").value;
     var results = (weight / (height * height)) * 703;
     var resultsStr = "";
