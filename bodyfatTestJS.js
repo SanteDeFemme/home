@@ -1,4 +1,4 @@
 function findBmi() {
-    fName = document.getElementById("fName").value;
+    var fName = document.getElementById("fName").value;
     document.getElementById("lblTest").innerHTML = "Hello";
 }
