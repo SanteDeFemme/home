@@ -9,9 +9,9 @@ function findBmi() {
     } else if (results >= 18.5 && results <= 24.9) {
         resultsStr = "Healthy";
     } else if (results >= 25 && results <= 29.9) {
-        resultsStr = "Healthy";
+        resultsStr = "Overweight";
     } else if (results => 30) {
-        resultsStr = "Healthy";
+        resultsStr = "Obese";
     }
     document.getElementById("result").innerHTML += " - " + resultsStr;
 }
