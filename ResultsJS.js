@@ -14,6 +14,4 @@ params = getParams();
 age = unescape(params["age"]);
 height = unescape(params["height"]);
 weight = unescape(params["weight"]);
-document.write("age = " + age + "<br>");
-document.write("weight = " + weight + "<br>");
-document.write("height = " + height + "<br>");
+document.getElementById("resultsPara")("age = " + age + "<br>");
