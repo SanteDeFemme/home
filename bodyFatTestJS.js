@@ -16,7 +16,8 @@ function findBodyFat() {
     var result9 = result8 - result5;
     var leanBodyMass = +result6 + +result9;
     var bodyFatPercentage = ((weight - leanBodyMass) * 100) / weight;
-    document.getElementById("result").innerHTML = Math.round(bodyFatPercentage * 1000) / 1000;
+    document.getElementById("resultBodyFat").innerHTML = "Body Fat: " + Math.round(bodyFatPercentage * 1000) / 1000;
+    document.getElementById("resultLeanBodyMass").innerHTML = "Lean Body Mass: " + leanBodyMass;
     var noteString = "*Note - These are approxiamtions. Do not base your diet plan on this. This will differ based on what you do, eg. Athlete, woman.\nIf you want a more accurate result, please try our body fat precentage calculator";
     document.getElementById("notesP").innerHTML = noteString;
     document.getElementById("tableResult").className = '';
