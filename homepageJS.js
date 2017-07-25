@@ -7,7 +7,8 @@ var quotes = [
     "Failure is the only opportunity to begin again, only this time wisely",
     "The difference between try and triumph is just a little umph",
     "Today just get up and go, because yesterday, you said tomorrow",
-    "Your body keeps and accurate journal regardless of what you write down"
+    "Your body keeps and accurate journal regardless of what you write down",
+    "It's not about being the best, it's about being better than you were yesterday"
 ];
 
 function getQuote() {
