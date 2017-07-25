@@ -50,24 +50,15 @@ html {
   margin: 10px;
   color: #737373;
 }
-ody {margin: 0;}
-.topnav {
-overflow: hidden;
-;
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+    underline: none;
 }
-.topnav a {
-float: right;
-display: block;
-color: white;
-text-align: center;
-padding: 14px 16px;
-text-decoration: none;
-font-size: 17px;
+li {
+    display: inline;
 }
-.topnav a:hover {
-color: black;
-}
-.topnav a.active {
-  background-color: #edf1f7;
-  color: 8c8c8c;
-}
+  
