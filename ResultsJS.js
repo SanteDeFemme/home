@@ -11,7 +11,7 @@ params[nameVal[0]] = nameVal[1];
 return params;
 }
 params = getParams();
-age = unescape(params["age"]);
-height = unescape(params["height"]);
-weight = unescape(params["weight"]);
+var age = unescape(params["age"]);
+var height = unescape(params["height"]);
+var weight = unescape(params["weight"]);
 document.getElementById("resultsPara")("age = " + age + "<br>");
