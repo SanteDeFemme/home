@@ -7,5 +7,5 @@ function surveyFunction() {
    var occupation = document.getElementById("occupation").value;
    var food = document.getElementById("food").value;
    
-   document.getElementById("resultsP").innerHTML = age + " " + weight + " " + heightf;
+   document.getElementById("resultsPara").innerHTML = age + " " + weight + " " + heightf;
 }
