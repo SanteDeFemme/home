@@ -6,4 +6,6 @@ function surveyFunction() {
    var height = +(heightf * 12) + +heighti;
    var occupation = document.getElementById("occupation").value;
    var food = document.getElementById("food").value;
+   
+   document.getElementById("resultsP").innerHTML = age + " " + weight + " " + heightf;
 }
