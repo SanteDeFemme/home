@@ -15,7 +15,7 @@ function findBmi() {
     } else if (results => 30) {
         resultsStr = "Obese";
     }
-    var noteString = "*Note - These are approxiamtions. Do not base your diet plan on this. This will not differ based on what you do, eg. Athlete, woman.\nIf you want a more accurate result, please try our body fat precentage calculator";
+    var noteString = "*Note - These are approxiamtions. Do not base your diet plan on this. This will differ based on what you do, eg. Athlete, woman.\nIf you want a more accurate result, please try our body fat precentage calculator";
     document.getElementById("notesP").innerHTML = noteString;
     document.getElementById("result").innerHTML += " - " + resultsStr;
 }
