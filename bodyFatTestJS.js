@@ -4,7 +4,7 @@ function findBodyFat() {
     var waist = document.getElementById("waist").value;
     var hip = document.getElementById("hip").value;
     var forearm = document.getElementById("forearm").value;
-    var result1 = weight * .0732;
+    var result1 = weight * 0.732;
     var result2 = +result1 + +8.987;
     var result3 = wrist / 3.14;
     var result4 = waist * 0.157;
