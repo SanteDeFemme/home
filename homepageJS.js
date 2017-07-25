@@ -6,5 +6,5 @@ var quotes = [
 
 function getQuote() {
     var chosenQuote = quotes[Math.floor(Math.random()*quotes.length)];
-    document.getElementById("quote").innerHTML = "chosenQuote";
+    document.getElementById("quote").innerHTML = chosenQuote;
 }
