@@ -12,6 +12,6 @@ function getParams(){
 return params;
 }
 params = getParams();
-var age = unescape(params["age"]);
-var height = unescape(params["height"]);
-var weight = unescape(params["weight"]);
+age = unescape(params["age"]);
+height = unescape(params["height"]);
+weight = unescape(params["weight"]);
