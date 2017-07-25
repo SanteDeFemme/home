@@ -16,5 +16,5 @@ function findBodyFat() {
     var leanBodyMass = +result6 + +result9;
     var bodyFatPercentage = ((weight - leanBodyMass) * 100) / weight;
     
-    document.getElementById("result").innerHTML = bodyFatPercentage;
+    document.getElementById("result").innerHTML = Math.round(bodyFatPercentage * 10000) / 10000;
 }
