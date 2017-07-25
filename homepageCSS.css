@@ -31,7 +31,8 @@ html {
   font-family: Cedarville Cursive;
   text-align: center;
   font-weight: bold;
-  font-size: 100px;
+  font-size: 200px;
+  line-height: 30px;
 }
 #infoabout {
   font-family: 'Poppins', serif;
