@@ -15,3 +15,7 @@ function getQuote() {
     var chosenQuote = quotes[Math.floor(Math.random()*quotes.length)];
     document.getElementById("quote").innerHTML = chosenQuote;
 }
+
+function scrollWin() {
+    window.scrollTo (0,500);
+}
