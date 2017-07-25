@@ -15,3 +15,7 @@ params = getParams();
 age = unescape(params["age"]);
 height = unescape(params["height"]);
 weight = unescape(params["weight"]);
+document.write("firstname = " + firstname + "<br>");
+document.write("lastname = " + lastname + "<br>");
+document.write("age = " + age + "<br>");
+
