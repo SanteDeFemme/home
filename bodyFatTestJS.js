@@ -1,4 +1,5 @@
 function findBodyFat() {
+    document.getElementById("tableResult").className = 'hidden';
     var weight = document.getElementById("weight").value;
     var wrist = document.getElementById("wrist").value;
     var waist = document.getElementById("waist").value;
@@ -18,4 +19,5 @@ function findBodyFat() {
     document.getElementById("result").innerHTML = Math.round(bodyFatPercentage * 1000) / 1000;
     var noteString = "*Note - These are approxiamtions. Do not base your diet plan on this. This will differ based on what you do, eg. Athlete, woman.\nIf you want a more accurate result, please try our body fat precentage calculator";
     document.getElementById("notesP").innerHTML = noteString;
+    document.getElementById("tableResult").className = '';
 }
