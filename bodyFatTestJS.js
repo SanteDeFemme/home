@@ -1,19 +1,20 @@
-function findBmi() {
-    var heightf = document.getElementById("heightF").value;
-    var heighti = document.getElementById("heightI").value;
+function findBodyFat() {
     var weight = document.getElementById("weight").value;
-    var height = +(heightf * 12) + +heighti;
-    var results = (weight / (height * height)) * 703;
-    var resultsStr = "";
-    document.getElementById("result").innerHTML = Math.round(results * 100) / 100;
-    if (results < 18.5) {
-        resultsStr = "Underweight";
-    } else if (results >= 18.5 && results <= 24.9) {
-        resultsStr = "Healthy";
-    } else if (results >= 25 && results <= 29.9) {
-        resultsStr = "Overweight";
-    } else if (results => 30) {
-        resultsStr = "Obese";
-    }
-    document.getElementById("result").innerHTML += " - " + resultsStr;
+    var wrist = document.getElementById("wrist").value;
+    var waist = document.getElementById("waist").value;
+    var hip = document.getElementById("hip").value;
+    var forearm = document.getElementById("forearm").value;
+    var result1 = weight * .0732;
+    var result2 = +result1 + +8.987;
+    var result3 = wrist / 3.14;
+    var result4 = waist * 0.157;
+    var result5 = hip * 0.249;
+    var result6 = forearm * 0.434;
+    var result7 = +result2 + +result3;
+    var result8 = result7 - result4;
+    var result9 = result8 - result5;
+    var leanBodyMass = +result6 + +result9;
+    var bodyFatPercentage = ((weight - leanBodyMass) * 100) / weight;
+    
+    document.getElementById("result").innerHTML = bodyFatPercentage;
 }
