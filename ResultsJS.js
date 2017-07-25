@@ -1,17 +1,17 @@
 function getParams(){
-var idx = document.URL.indexOf('?');
-var params = new Array();
-if (idx != -1) {
-var pairs = document.URL.substring(idx+1, document.URL.length).split('&');
-for (var i=0; i<pairs.length; i++){
-nameVal = pairs[i].split('=');
-params[nameVal[0]] = nameVal[1];
-}
-}
+  var idx = document.URL.indexOf('?');
+  var params = new Array();
+  if (idx != -1) {
+    var pairs = document.URL.substring(idx+1, document.URL.length).split('&');
+    for (var i=0; i<pairs.length; i++){
+      nameVal = pairs[i].split('=');
+      params[nameVal[0]] = nameVal[1];
+    }
+  }
+  document.getElementById("resultsPara")("age = " + age + "<br>");
 return params;
 }
 params = getParams();
 var age = unescape(params["age"]);
 var height = unescape(params["height"]);
 var weight = unescape(params["weight"]);
-document.getElementById("resultsPara")("age = " + age + "<br>");
