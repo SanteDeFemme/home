@@ -30,3 +30,13 @@ html {
   font-family: Cedarville Cursive;
   text-align: center;
 }
+#infoabout {
+  font-family: 'Poppins', serif; font-size: 24px; text-align:left;
+}
+#aboutTitle {
+  font-family: 'Poppins';cursive; font-size: 90px; text-align:left; padding-left: 62px;
+}
+#aboutus {
+  background-color:#ffffcc;
+  margin: 0px;
+}
