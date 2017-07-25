@@ -1,3 +1,3 @@
 function surveyFunction() {
-    //use.value
+   var age = document.getElementById("age").value;
 }
