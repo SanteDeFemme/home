@@ -8,7 +8,7 @@ function getParams(){
       params[nameVal[0]] = nameVal[1];
     }
   }
-  document.getElementById("resultsPara")("age = " + age + "<br>");
+  //document.getElementById("resultsPara")("age = " + age + "<br>");
 return params;
 }
 params = getParams();
