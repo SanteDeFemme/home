@@ -1,0 +1,32 @@
+html {
+  background-color: #F5DAE3;
+}
+.button {
+  background-color: #BB8496;
+  border: none;
+  color: White;
+  padding: 15px 32px;
+  font-family: Poppins;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+#quote {
+  font-family: Poppins;
+  color: White;
+  text-align:center;
+}
+#myGoddess {
+  color: White;
+  font-family: Poppins;
+  text-align: center;
+  text-shadow: 2px 2px 4px DarkGrey;
+}
+#santeDeFemme {
+  color: White;
+  font-family: Poppins;
+  text-align: center;
+}
