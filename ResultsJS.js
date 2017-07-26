@@ -11,9 +11,9 @@ params[nameVal[0]] = nameVal[1];
 return params;
 }
 params = getParams();
-firstname = unescape(params["firstname"]);
-lastname = unescape(params["lastname"]);
 age = unescape(params["age"]);
-document.write("firstname = " + firstname + "<br>");
-document.write("lastname = " + lastname + "<br>");
+weight = unescape(params["weight"]);
+heightF = unescape(params["heightF"]);
+document.write("heightF = " + heightF + "<br>");
+document.write("weight = " + weight + "<br>");
 document.write("age = " + age + "<br>");
