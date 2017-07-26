@@ -91,7 +91,7 @@ li {
   color: #737373;
 }
 #navBar {
-  font-family: 'Poppings';
+  font-family: 'Poppins';
   background-color: transparent;
   color: White;
   border: 2px solid White;
@@ -101,6 +101,7 @@ li {
   padding: 10px 15px;
 }
 #infoabout #contactUsPara {
+  font-family: 'Poppins';
   font-size: 50px;
   margin-left: 100px;
 }
