@@ -76,7 +76,6 @@ html {
   background-color:#ffffcc;
   color: #737373;
 }
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -97,4 +96,11 @@ li {
 #contactus {
   background-color:#e6e6ff;
   color: #737373;
+}
+#navBar {
+  background-color: transparent;
+  color: White;
+  border: 5px solid White;
+  border-radius: 10px;
+  padding: 25px;
 }
