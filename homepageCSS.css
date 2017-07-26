@@ -9,10 +9,36 @@ html {
   font-family: Poppins;
   text-align: center;
   text-decoration: none;
+  transition: all 0.5s;
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.button .buttonRead{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.button .buttonRead:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.button:hover .buttonRead {
+  padding-right: 25px;
+}
+.button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.button:hover .buttonRead:after {
+  opacity: 1;
+  right: 0;
 }
 #quote {
   font-family: Poppins;
