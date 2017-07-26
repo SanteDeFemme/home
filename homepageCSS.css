@@ -101,8 +101,8 @@ li {
 #navBar {
   background-color: transparent;
   color: White;
-  border: 3px solid White;
+  border: 2px solid White;
   border-radius: 10px;
-  font-size:20px;
-  padding: 10px;
+  font-size: 15px;
+  padding: 15px;
 }
