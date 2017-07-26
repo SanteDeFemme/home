@@ -42,7 +42,7 @@ html {
 #aboutTitle {
   font-family: 'Poppins', cursive;
   font-size: 70px;
-  text-align:left;
+  text-align:center;
   padding-left: 62px;
 }
 #aboutus {
@@ -71,5 +71,5 @@ li {
 #contactus {
   background-color:#e6e6ff;
   color: #737373;
-  text-align:center;
+
 }
