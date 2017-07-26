@@ -18,4 +18,3 @@ weight = unescape(params["weight"]);
 document.write("age = " + age + "<br>");
 document.write("height = " + height + "<br>");
 document.write("weight = " + weight + "<br>");
-
