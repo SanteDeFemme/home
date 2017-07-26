@@ -58,10 +58,6 @@ html {
   font-size: 180px;
   line-height: 30px;
 }
-#infoabout #contactUsPara {
-  font-size: 50px;
-  margin-left: 100px;
-}
 #aboutTitle {
   font-family: 'Poppins';
   font-size: 70px;
@@ -100,4 +96,8 @@ li {
   border-radius: 10px;
   font-size: 15px;
   padding: 10px 15px;
+}
+#infoabout #contactUsPara {
+  font-size: 50px;
+  margin-left: 100px;
 }
