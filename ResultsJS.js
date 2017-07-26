@@ -13,7 +13,7 @@ return params;
 }
 params = getParams();
 age = unescape(params["age"]);
-lastname = unescape(params["weight"]);
+weight = unescape(params["weight"]);
 occupation = unescape(params["occupation"]);
 document.write("age = " + age + "<br>");
 document.write("occupation = " + occupation + "<br>");
