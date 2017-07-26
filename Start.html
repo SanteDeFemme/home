@@ -21,20 +21,19 @@ html {
   <body>
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <h1 style="text-align:center;">Questionnaire</h2>
-    <form method="get" action="Results.html">
     <center>
     Age: <input id="age" type="text" style="height: 30px"><br>
       <br>
     Weight (pounds): <input id="weight" type="text" style="height: 30px"><br>
       <br>
-    Height (ft,in): <input id="heightF" type="text" style="height: 30px"><input id="heightI" type="text"><br>
+    Height (ft,in): <input id="heightF" type="text" style="height: 30px"><input id="heightI" type="text" style="height: 30px"><br>
       <br>
-    Student/Work: <select name="occupation" id="occupation">
+    Occupation: <select name="occupation" id="occupation" style="height: 30px">
       <option value="student">Student</option>
       <option value="work">Work</option>
     </select>
     <br>
-    Diet: <select name="food" id="food">
+    Diet: <select name="food" id="food" style="height: 30px">
       <option value="vegan">Vegan</option>
       <option value="veg">Vegetarian</option>
       <option value="nonveg">Non-Vegetarian</option>
@@ -43,10 +42,9 @@ html {
     </center>
     <br>
     <center>
-      <a href="Results.html"><button type="submit">Submit my input</button></a>
+      <a href="Results.html"><button type="submit" onclick="surveyFunction()" style="height: 30px">Submit my input</button></a>
       <br>
     </center>
-    </form>
   </body>
 </html>
 
