@@ -1,9 +1,15 @@
-function surveyFunction() {
-   var age = document.getElementById("age").value;
-   var weight = document.getElementById("weight").value;
-   var heightf = document.getElementById("heightF").value;
-   var heighti = document.getElementById("heightI").value;
-   var height = +(heightf * 12) + +heighti;
-   var occupation = document.getElementById("occupation").value;
-   var food = document.getElementById("food").value;
+function GetParam(name)
+{
+  var start=location.search.indexOf("?"+name+"=");
+  if (start<0) start=location.search.indexOf("&"+name+"=");
+  if (start<0) return '';
+  start += name.length+2;
+  var end=location.search.indexOf("&",start)-1;
+  if (end<0) end=location.search.length;
+  var result='';
+  for(var i=start;i<=end;i++) {
+    var c=location.search.charAt(i);
+    result=result+(c=='+'?' ':c);
+  }
+  return unescape(result);
 }
