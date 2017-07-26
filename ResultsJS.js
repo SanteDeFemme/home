@@ -12,9 +12,9 @@ function getParams(){
 return params;
 }
 params = getParams();
-age = unescape(params["age"]);
-height = unescape(params["height"]);
-weight = unescape(params["weight"]);
+var age = unescape(params["age"]);
+var height = unescape(params["height"]);
+var weight = unescape(params["weight"]);
 document.write("age = " + age + "<br>");
 document.write("height = " + height + "<br>");
 document.write("weight = " + weight + "<br>");
