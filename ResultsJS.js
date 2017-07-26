@@ -1,4 +1,3 @@
-
 function getParams(){
 var idx = document.URL.indexOf('?');
 var params = new Array();
@@ -13,8 +12,14 @@ return params;
 }
 params = getParams();
 age = unescape(params["age"]);
+heightF = unescape(params["heightF"]);
+heightI = unescape(params["heightI"]);
+height = +(heightF * 12) + +heightI;
 weight = unescape(params["weight"]);
 occupation = unescape(params["occupation"]);
+diet = unescape(params["diet"]);
 document.write("age = " + age + "<br>");
+document.write("height = " + height + "<br>");
+document.write("diet = " + diet + "<br>");
 document.write("occupation = " + occupation + "<br>");
 document.write("weight = " + weight + "<br>");
