@@ -71,5 +71,7 @@ li {
 #contactus {
   background-color:#e6e6ff;
   color: #737373;
-
+}
+#infoabout #contactUsPara {
+  margin-left: 50px;
 }
