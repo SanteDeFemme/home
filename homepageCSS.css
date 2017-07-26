@@ -34,10 +34,11 @@ html {
   font-size: 180px;
   line-height: 30px;
 }
-#infoabout {
+#infoabout #contactUsPara {
   font-family: 'Poppins', serif;
   font-size: 24px;
   text-align:left;
+  margin-left: 50px;
 }
 #aboutTitle {
   font-family: 'Poppins', cursive;
@@ -61,8 +62,7 @@ li {
     display: inline;
 }
   
-#contactusTitle
-{
+#contactusTitle {
   font-family: 'Poppins', cursive;
   font-size: 70px;
   text-align:center;
@@ -71,7 +71,4 @@ li {
 #contactus {
   background-color:#e6e6ff;
   color: #737373;
-}
-#infoabout #contactUsPara {
-  margin-left: 50px;
 }
