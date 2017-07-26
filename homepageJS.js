@@ -16,10 +16,6 @@ function getQuote() {
     document.getElementById("quote").innerHTML = chosenQuote;
 }
 
-function scrollWin() {
-    window.scrollTo (0,1000);
-}
-
-function scrollWindow() {
-    window.scrollTo (0,1500);
+function scrollWin(num) {
+    window.scrollTo (0,num);
 }
