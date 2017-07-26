@@ -47,8 +47,9 @@ html {
 }
 #aboutus {
   background-color:#ffffcc;
-  margin: -5px;
+  margin: none;
   color: #737373;
+  text-margin: 20px;
 }
 
 ul {
