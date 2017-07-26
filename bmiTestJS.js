@@ -7,7 +7,7 @@ function findBmi() {
     var resultsStr = "";
     var treatment = "";
     var underTreatment = "Treatment: Because you are underweight, you will need to eat more calories. The extra calories you \
-should be consuming should come mainly from additional carbohydrates. To start, set a realistic goal we = ""ight for yourself. Make \
+should be consuming should come mainly from additional carbohydrates. To start, set a realistic goal weight for yourself. Make \
 nutrition your priority, and weight gain the second. It is best to gain weight slowly to make sure your weight gain is in the \
 form of lean body mass and not fat. Try not to gain more than a 1/2 pound a week. Here are some ways to promote a healthier \
 lifestyle: Drink at least 6-8 glasses of water a day. Instead of eating 3 large meals a day, break the meals up and have small \
