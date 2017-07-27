@@ -43,3 +43,4 @@ if (gym == "Yes") {
 else if (gym == "No") {
 	gymBool == False;
 }
+document.write("gym = " + gymBool + "<br>");
