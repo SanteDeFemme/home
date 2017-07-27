@@ -88,7 +88,6 @@ li {
   font-family: 'Poppins';
   font-size: 70px;
   text-align:center;
-  padding-left: 62px;
 }
 #contactus {
   font-family: 'Poppins';
@@ -120,5 +119,5 @@ li {
   border-radius: 7px;
   font-size: 40px;
   font-weight: bold;
-  color: #7a0099;
+  color: #f2f2f2;
 }
