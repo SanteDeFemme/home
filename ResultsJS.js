@@ -34,4 +34,4 @@ if (bmi < 18.5) {
 } else if (bmi => 30) {
 	bmiStr = "Obese";
 }
-document.write("bmi = " + bmi + "<br>");
+document.write("bmi = " + Math.round(bmi * 100) / 100 + "<br>");
