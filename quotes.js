@@ -14,7 +14,7 @@ var quotes = [
 function getQuote() {
   var chosenQuote = quotes[Math.floor(Math.random()*quotes.length)];
     document.getElementById("quote").innerHTML = chosenQuote;
-    setTimeout(yourFunction, 5000);
+    setTimeout(getQuote(), 5000);
 }
 
 
