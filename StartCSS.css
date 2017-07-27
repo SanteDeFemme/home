@@ -20,3 +20,7 @@ html {
     margin: 4px 2px;
     cursor: pointer;
   }
+#formDiv {
+  width: 50%;
+  margin: auto;
+}
