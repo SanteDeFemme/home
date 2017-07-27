@@ -83,8 +83,9 @@ ul {
 li {
     display: inline;
 }
-#spacing {
-  line-height: 30px;
+
+#contactus > br {
+    line-height: 2px;
 }
   
 #contactusTitle {
