@@ -13,19 +13,14 @@
     	<h2 id="questionTitle">Questionnaire</h2>
     	<form method="get" action="Results.html">
     		Age: <input id="age" name="age" type="text"><br>
-      	<br>
     		Weight (pounds): <input id="weight" name="weight" type="text"><br>
-      	<br>
     		Height (ft,in): <input id="heightF" name="heightF" type="text"><input id="heightI" name="heightI" type="text"><br>
-     		<br>
     		Occupation: <select name="occupation" id="occupation">
       		<option value="student">Student</option>
       		<option value="work">Work</option>
-    		</select>
-    		<br>
-    		<br>
+    		</select><br>
     		Diet: <select name="food" id="food">
-					<option value="vegan">Vegan</option>
+		<option value="vegan">Vegan</option>
       		<option value="veg">Vegetarian</option>
       		<option value="nonveg">Non-Vegetarian</option>
       		<br>
@@ -33,8 +28,7 @@
 	      Do you go to the gym?
 				<input type="radio" name="gym" value="yes"> Yes
 				<input type="radio" name="gym" value="no"> No<br>
-    		<br>
-      	<button type="submit" onclick="surveyFunction()" style="height: 30px">Submit my input</button>
+      	<button type="submit" id="submitButton" onclick="surveyFunction()">Submit my input</button>
       	<br>
    			<img src="flowerBorder.png">
     	</form>
