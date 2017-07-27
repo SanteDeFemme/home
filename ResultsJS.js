@@ -1,14 +1,14 @@
 function getParams(){
-var idx = document.URL.indexOf('?');
-var params = new Array();
-if (idx != -1) {
-var pairs = document.URL.substring(idx+1, document.URL.length).split('&');
-for (var i=0; i<pairs.length; i++){
-nameVal = pairs[i].split('=');
-params[nameVal[0]] = nameVal[1];
-}
-}
-return params;
+	var idx = document.URL.indexOf('?');
+	var params = new Array();
+	if (idx != -1) {
+		var pairs = document.URL.substring(idx+1, document.URL.length).split('&');
+		for (var i=0; i<pairs.length; i++){
+			nameVal = pairs[i].split('=');
+			params[nameVal[0]] = nameVal[1];
+		}
+	}
+	return params;
 }
 params = getParams();
 age = unescape(params["age"]);
@@ -27,13 +27,14 @@ document.write("weight = " + weight + "<br>");
 bmiStr = "";
 if (bmi < 18.5) {
         bmiStr = "Underweight";
-    } else if (results >= 18.5 && results <= 24.9) {
+} else if (results >= 18.5 && results <= 24.9) {
         resultsStr = "Healthy";
         treatment = healthyTreatment;
-    } else if (results >= 25 && results <= 29.9) {
+} else if (results >= 25 && results <= 29.9) {
         resultsStr = "Overweight";
         treatment = overTreatment;
-    } else if (results => 30) {
+} else if (results => 30) {
         resultsStr = "Obese";
         treatment = obesityTreatment;
-    }
+}
+document.write("bmi = " + bmi + "<br>");
