@@ -29,3 +29,8 @@ img {
   width:700px;
   height:157px;
 }
+#backToHome {
+  text-align: left;
+  margin-left: 10px;
+  font-size: 10px;
+}
