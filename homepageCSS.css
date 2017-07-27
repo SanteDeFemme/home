@@ -72,8 +72,7 @@ html {
 
 #picabout {
  margin-right_ 50px; 
- border: 2px;
-  border-color:#ffffcc;
+ border: 2px border-color:#ffffcc;
 }
 ul {
     list-style-type: none;
