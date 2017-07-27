@@ -11,10 +11,12 @@ var quotes = [
     "It's not about being the best, it's about being better than you were yesterday"
 ];
 
-setInterval(function() {
+function getQuote() {
   var chosenQuote = quotes[Math.floor(Math.random()*quotes.length)];
     document.getElementById("quote").innerHTML = chosenQuote;
-}, 5000);
+    setTimeout(yourFunction, 5000);
+}
+
 
 function scrollWin(num) {
     window.scrollTo (0,num);
