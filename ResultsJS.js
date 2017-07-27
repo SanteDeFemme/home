@@ -16,6 +16,7 @@ heightF = unescape(params["heightF"]);
 heightI = unescape(params["heightI"]);
 height = +(heightF * 12) + +heightI;
 weight = unescape(params["weight"]);
+gym = unescape(params["gym"]);
 occupation = unescape(params["occupation"]);
 diet = unescape(params["food"]);
 bmi = (weight / (height * height)) * 703;
@@ -35,3 +36,10 @@ if (bmi < 18.5) {
 	bmiStr = "Obese";
 }
 document.write("bmi = " + Math.round(bmi * 100) / 100 + "<br>");
+gymBool = False;
+if (gym == "Yes") {
+	gymBool == True;
+}
+else if (gym == "No") {
+	gymBool == False;
+}
