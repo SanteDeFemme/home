@@ -3,6 +3,7 @@
     var counter = 6;
     var elem = document.getElementById("quote");
     setInterval(change, 1000);
+
     function change() {
      elem.innerHTML = text[counter];
         counter++;
