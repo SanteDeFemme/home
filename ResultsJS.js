@@ -27,14 +27,11 @@ document.write("weight = " + weight + "<br>");
 bmiStr = "";
 if (bmi < 18.5) {
 	bmiStr = "Underweight";
-} else if (results >= 18.5 && results <= 24.9) {
-	resultsStr = "Healthy";
-	treatment = healthyTreatment;
-} else if (results >= 25 && results <= 29.9) {
-	resultsStr = "Overweight";
-	treatment = overTreatment;
-} else if (results => 30) {
-	resultsStr = "Obese";
-	treatment = obesityTreatment;
+} else if (bmi >= 18.5 && bmi <= 24.9) {
+	bmiStr = "Healthy";
+} else if (bmi >= 25 && bmi <= 29.9) {
+	bmiStr = "Overweight";
+} else if (bmi => 30) {
+	bmiStr = "Obese";
 }
 document.write("bmi = " + bmi + "<br>");
