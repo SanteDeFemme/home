@@ -1,5 +1,5 @@
 input select {
-  font-size: 30px;
+  font-size: 20px;
 }
 #heightI {
   margin-left: 10px;
@@ -23,4 +23,9 @@ html {
 #formDiv {
   width: 80%;
   margin: auto;
+}
+
+img {
+  width:700px;
+  height:157px;
 }
