@@ -37,10 +37,10 @@ if (bmi < 18.5) {
 }
 document.write("bmi = " + Math.round(bmi * 100) / 100 + "<br>");
 gymBool = false;
-if (gym == "Yes") {
+if (gym == "yes") {
 	gymBool == true;
 }
-else if (gym == "No") {
+else if (gym == "no") {
 	gymBool == false;
 }
 document.write("gym = " + gymBool + "<br>");
