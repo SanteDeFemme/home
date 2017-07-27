@@ -72,6 +72,8 @@ html {
 
 #picabout {
  margin-right_ 50px; 
+ border: 2px;
+  border-color:#ffffcc;
 }
 ul {
     list-style-type: none;
@@ -88,7 +90,6 @@ li {
   font-size: 70px;
   text-align:center;
   padding-left: 62px;
-  line-height: 20px;
 }
 #contactus {
   font-family: 'Poppins';
