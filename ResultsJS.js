@@ -36,11 +36,11 @@ if (bmi < 18.5) {
 	bmiStr = "Obese";
 }
 document.write("bmi = " + Math.round(bmi * 100) / 100 + "<br>");
-gymBool = False;
+gymBool = false;
 if (gym == "Yes") {
-	gymBool == True;
+	gymBool == true;
 }
 else if (gym == "No") {
-	gymBool == False;
+	gymBool == false;
 }
 document.write("gym = " + gymBool + "<br>");
