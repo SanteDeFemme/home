@@ -12,11 +12,11 @@ var quotes = [
     "It's not about being the best, it's about being better than you were yesterday"
 ];
 
-function getQuote() {
-  var chosenQuote = quotes[Math.floor(Math.random()*quotes.length)];
-    document.getElementById("quote").innerHTML = chosenQuote;
-    setTimeout(getQuote, 5000);
-}
+// function getQuote() {
+//   var chosenQuote = quotes[Math.floor(Math.random()*quotes.length)];
+//     document.getElementById("quote").innerHTML = chosenQuote;
+//     setTimeout(getQuote, 5000);
+// }
 
 
 function scrollWin(num) {
@@ -42,7 +42,8 @@ TxtRotate.prototype.tick = function() {
   } else {
     this.txt = fullTxt.substring(0, this.txt.length + 1);
   }
-    this.el.innerHTML = '<span class="wrap">' + this.txt + "</span>";
+
+  this.el.innerHTML = '<span class="wrap">' + this.txt + "</span>";
 
   var that = this;
   var delta = 300 - Math.random() * 100;
