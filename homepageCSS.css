@@ -104,7 +104,7 @@ li {
   color: #737373;
   
   font-size: 50px;
-  line-height: 50px;
+  line-height: 0px;
 }
 #navBar {
   font-family: 'Poppins';
@@ -119,9 +119,9 @@ li {
 #infoabout, #contactUsPara {
   font-family: 'Poppins';
   font-size: 30px;
-  margin-left: 30px;
+  margin-left: 1300px;
   text-align: justify;
-  margin-right: 100px;
+  
 }
 
 .submitBtnNew {
@@ -141,7 +141,7 @@ li {
   line-height: 50px;
 }
  #beyondus {
-   font-family: 'Poppins';
+  font-family: 'Poppins';
   background-color:#C4EEAC;
   color: #737373;
   text-align: center;
