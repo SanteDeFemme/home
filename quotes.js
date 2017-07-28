@@ -66,14 +66,14 @@
  
  function getQuote(){
    var elements = document.getElementsByClassName('txt-rotate');
+  for (var j=0; j<quotes.length; j++) {
    for (var i=0; i<elements.length; i++) {
      var toRotate = elements[i].getAttribute('data-rotate');
      var period = elements[i].getAttribute('data-period');
      if (toRotate) {
-         for (var i=0; i<quotes.length; i++) {
-             new TxtRotate(elements[i], quotes[i], period);
-         }
+             new TxtRotate(elements[i], quotes[j], period);
      }
+   }
    }
    // INJECT CSS
    var css = document.createElement("style");
