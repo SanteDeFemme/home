@@ -121,7 +121,7 @@ li {
   font-size: 30px;
   margin-left: 30px;
   text-align: justify;
-  padding: 60px;
+  margin-right: 100px;
 }
 
 .submitBtnNew {
