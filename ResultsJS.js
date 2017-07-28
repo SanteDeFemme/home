@@ -1,6 +1,5 @@
 function getParams(){
 	var idx = document.URL.indexOf('?');
-	font-family: Poppins();
 	var params = new Array();
 	if (idx != -1) {
 		var pairs = document.URL.substring(idx+1, document.URL.length).split('&');
