@@ -1,4 +1,4 @@
-
+var j = 0;
  var quotes = [
      "You don't have to eat less; you just have to eat right",
      "The best time to plant a tree was 20 years ago; the second best time is now",
@@ -52,6 +52,7 @@
   
    if (!this.isDeleting && this.txt === fullTxt) {
      delta = 50;
+    j++;
      this.isDeleting = true;
    } else if (this.isDeleting && this.txt === '') {
      this.isDeleting = false;
@@ -66,14 +67,12 @@
  
  function getQuote(){
    var elements = document.getElementsByClassName('txt-rotate');
-  var j = 0;
      var toRotate = elements[0].getAttribute('data-rotate');
      var period = elements[0].getAttribute('data-period');
    for (var i=0; i<10; i++) {
      if (toRotate) {
              new TxtRotate(elements[0], quotes[i], period);
      }
-    j++
    }
    // INJECT CSS
    var css = document.createElement("style");
