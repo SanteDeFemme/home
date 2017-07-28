@@ -45,7 +45,7 @@ html {
 }
 #myGoddess {
   color: White;
-  font-family: 'Shadows Into Light' ;
+  font-family: 'Shadows Into Light', cursive;
   text-align: center;
   text-shadow: 2px 2px 4px DarkGrey;
   font-size: 50px;
