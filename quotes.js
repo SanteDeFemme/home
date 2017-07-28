@@ -70,9 +70,9 @@ function getQuote(){
     var toRotate = elements[i].getAttribute('data-rotate');
     var period = elements[i].getAttribute('data-period');
     if (toRotate) {
-        for (var j=0; j<quotes.length; j++) {
-            new TxtRotate(elements[i], quotes[j], period);
-        }
+//         for (var j=0; j<quotes.length; j++) {
+            new TxtRotate(elements[i], quotes[1], period);
+//         }
     }
   }
   // INJECT CSS
