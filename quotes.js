@@ -46,7 +46,7 @@ TxtRotate.prototype.tick = function() {
   this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
 
   var that = this;
-  var delta = 1000 - Math.random() * 100;
+  var delta = 5000;
 
   if (this.isDeleting) { delta /= 2; }
 
@@ -61,7 +61,7 @@ TxtRotate.prototype.tick = function() {
 
   setTimeout(function() {
     that.tick();
-  }, delta);
+  }, 4000);
 };
 
 function getQuote(){
