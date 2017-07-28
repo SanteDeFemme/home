@@ -66,7 +66,12 @@ setTimeout(function() {
      this.isDeleting = false;
      this.loopNum++;
      delta = 100;
-    this.j++;
+    if (j == 9) {
+     this.j = 0;
+    }
+    else {
+     this.j++;
+    }
    }
  
    setTimeout(function() {
