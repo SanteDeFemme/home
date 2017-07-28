@@ -71,7 +71,7 @@ var j = 0;
      var period = elements[0].getAttribute('data-period');
    for (var i=0; i<10; i++) {
      if (toRotate) {
-             new TxtRotate(elements[0], quotes[j], period);
+             new TxtRotate(elements[0], quotes[this.j], period);
      }
    }
    // INJECT CSS
