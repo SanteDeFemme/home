@@ -1,4 +1,4 @@
-var j = 0;
+
  var quotes = [
      "You don't have to eat less; you just have to eat right",
      "The best time to plant a tree was 20 years ago; the second best time is now",
@@ -27,6 +27,7 @@ var j = 0;
    this.toRotate = toRotate;
    this.el = el;
    this.loopNum = 0;
+  this.j = 0;
      this.isDeleting = false;
    this.period = parseInt(period, 10) || 1000;
    this.txt = '';
