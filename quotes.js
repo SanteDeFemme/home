@@ -23,9 +23,8 @@ function scrollWin(num) {
     window.scrollTo (0,num);
 }
 
-var TxtRotate = function(el, toRotate, period) {
+var TxtRotate = function(toRotate, period) {
   this.toRotate = toRotate;
-  this.el = el;
   this.loopNum = 0;
     this.isDeleting = false;
   this.period = parseInt(period, 10) || 2000;
@@ -66,12 +65,12 @@ TxtRotate.prototype.tick = function() {
 
 function getQuote(){
   var elements = document.getElementsByClassName('txt-rotate');
-  for (var i=0; i<elements.length; i++) {
+  for (var i=0; i<quotes.length; i++) {
     var toRotate = elements[i].getAttribute('data-rotate');
     var period = elements[i].getAttribute('data-period');
     if (toRotate) {
 //         for (var j=0; j<quotes.length; j++) {
-            new TxtRotate(elements[i], quotes[1], period);
+            new TxtRotate(quotes[i], period);
 //         }
     }
   }
