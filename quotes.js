@@ -66,7 +66,8 @@
    }, delta);
  };
  
- function getQuote(){
+ function getQuote
+this.j = 0;
    var elements = document.getElementsByClassName('txt-rotate');
      var toRotate = elements[0].getAttribute('data-rotate');
      var period = elements[0].getAttribute('data-period');
