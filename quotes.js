@@ -61,7 +61,7 @@ TxtRotate.prototype.tick = function() {
 
   setTimeout(function() {
     that.tick();
-  }, 4000);
+  }, 400);
 };
 
 function getQuote(){
