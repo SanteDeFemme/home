@@ -46,8 +46,7 @@
     this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
   
     var that = this;
- -  var delta = 300 - Math.random() * 100;
- +  var delta = 100 - Math.random() * 100;
+ var delta = 5000;
   
     if (this.isDeleting) { delta /= 2; }
   
@@ -62,7 +61,7 @@
  
    setTimeout(function() {
      that.tick();
-   }, delta);
+   }, 400);
  };
  
  function getQuote(){
