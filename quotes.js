@@ -61,7 +61,7 @@ var y = null; // To keep under proper scope
 setTimeout(function() {
     x = x * 3 + 2;
     y = x / 2;
-}, 100);
+}, 1000);
    } else if (this.isDeleting && this.txt === '') {
      this.isDeleting = false;
      this.loopNum++;
