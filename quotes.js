@@ -16,6 +16,11 @@ function getQuote() {
   var chosenQuote = quotes[Math.floor(Math.random()*quotes.length)];
     document.getElementById("quote").innerHTML = chosenQuote;
     setTimeout(getQuote, 5000);
+    $(this).stop().css('opacity', '0').html(function (_, oldText) {
+        return oldText == 'Good Bye' ? 'Hello' : 'Good Bye'
+    }).animate({
+        opacity: 1
+    }, 2000);
 }
 
 
