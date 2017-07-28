@@ -36,6 +36,7 @@
  
  TxtRotate.prototype.tick = function() {
    var i = this.loopNum % this.toRotate.length;
+  this.toRotate = quotes[this.j];
    var fullTxt = this.toRotate;
  
    if (this.isDeleting) {
