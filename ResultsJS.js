@@ -22,6 +22,7 @@ diet = unescape(params["food"]);
 bmi = (weight / (height * height)) * 703;
 document.write("age = " + age + "<br>");
 document.write("height = " + height + "<br>");
+document.getElementById("resultsPara").innerHTML = "AGEEEE = " age;
 document.write("diet = " + diet + "<br>");
 document.write("occupation = " + occupation + "<br>");
 document.write("weight = " + weight + "<br>");
