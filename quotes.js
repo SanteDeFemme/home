@@ -21,7 +21,7 @@ var quotes = [
 ];
 
 function getQuote() {
-//   var chosenQuote = quotes[Math.floor(Math.random()*quotes.length)];
+  var chosenQuote = quotes[Math.floor(Math.random()*quotes.length)];
 //     document.getElementById("quote").innerHTML = chosenQuote;
 //     setTimeout(getQuote, 5000);
 }
