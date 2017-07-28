@@ -67,9 +67,9 @@
  function getQuote(){
    var elements = document.getElementsByClassName('txt-rotate');
   var j = 0;
-   for (var i=0; i<10; i++) {
      var toRotate = elements[i].getAttribute('data-rotate');
      var period = elements[i].getAttribute('data-period');
+   for (var i=0; i<10; i++) {
      if (toRotate) {
              new TxtRotate(elements[i], quotes[j], period);
      }
