@@ -46,12 +46,12 @@
     this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
   
     var that = this;
- var delta = 100;
+ var delta = 500;
   
     if (this.isDeleting) { delta /= 2; }
   
    if (!this.isDeleting && this.txt === fullTxt) {
-     delta = this.period;
+     delta = 100;
      this.isDeleting = true;
    } else if (this.isDeleting && this.txt === '') {
      this.isDeleting = false;
@@ -61,7 +61,7 @@
  
    setTimeout(function() {
      that.tick();
-   }, 100);
+   }, delta);
  };
  
  function getQuote(){
