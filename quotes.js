@@ -71,7 +71,7 @@
      var period = elements[0].getAttribute('data-period');
    for (var i=0; i<10; i++) {
      if (toRotate) {
-             new TxtRotate(elements[i], quotes[j], period);
+             new TxtRotate(elements[0], quotes[j], period);
      }
     j++
    }
