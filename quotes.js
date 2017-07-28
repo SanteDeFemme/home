@@ -45,7 +45,7 @@
      this.txt = fullTxt.substring(0, this.txt.length + 1);
    }
  
-    this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+    this.el.innerHTML = '<span class="wrap"> '+this.txt+'</span>';
   
     var that = this;
  var delta = 100;
@@ -66,7 +66,7 @@ setTimeout(function() {
      this.isDeleting = false;
      this.loopNum++;
      delta = 100;
-    if (j == 9) {
+    if (this.j == 9) {
      this.j = 0;
     }
     else {
