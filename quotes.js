@@ -61,7 +61,7 @@
  
    setTimeout(function() {
      that.tick();
-   }, 400);
+   }, 100);
  };
  
  function getQuote(){
