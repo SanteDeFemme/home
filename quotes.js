@@ -46,7 +46,7 @@ var j = 0;
     this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
   
     var that = this;
- var delta = 500;
+ var delta = 100;
   
     if (this.isDeleting) { delta /= 2; }
   
