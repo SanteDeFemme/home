@@ -57,7 +57,7 @@ var j = 0;
      this.isDeleting = false;
      this.loopNum++;
      delta = 100;
-    this.j++'
+    this.j++;
    }
  
    setTimeout(function() {
