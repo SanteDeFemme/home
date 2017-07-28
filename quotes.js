@@ -1,3 +1,12 @@
+import Typed from 'typed.js';
+var options = {
+  strings: ["<i>First</i> sentence.", "&amp; a second sentence."],
+  typeSpeed: 40
+}
+
+var typed = new Typed('.element', {
+    stringsElement: '#quote'
+  });
 var quotes = [
     "You don't have to eat less; you just have to eat right",
     "The best time to plant a tree was 20 years ago; the second best time is now",
@@ -12,9 +21,9 @@ var quotes = [
 ];
 
 function getQuote() {
-  var chosenQuote = quotes[Math.floor(Math.random()*quotes.length)];
-    document.getElementById("quote").innerHTML = chosenQuote;
-    setTimeout(getQuote, 5000);
+//   var chosenQuote = quotes[Math.floor(Math.random()*quotes.length)];
+//     document.getElementById("quote").innerHTML = chosenQuote;
+//     setTimeout(getQuote, 5000);
 }
 
 
