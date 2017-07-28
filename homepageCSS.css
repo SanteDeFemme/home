@@ -119,9 +119,9 @@ li {
 #infoabout, #contactUsPara {
   font-family: 'Poppins';
   font-size: 30px;
-  margin-left: 1300px;
+  margin-left: 30px;
   text-align: justify;
-  
+  margin-right: 600px
 }
 
 .submitBtnNew {
