@@ -63,12 +63,14 @@ html {
   font-family: 'Poppins';
   font-size: 70px;
   text-align:center;
-  line-height: 50px;
+  line-height: 0px;
   
 }
 #aboutus {
   background-color:#ffffcc;
   color: #737373;
+  line-height: 0px;
+  
 }
 
 #picabout {
@@ -103,9 +105,7 @@ li {
   font-family: 'Poppins';
   background-color:#e6e6ff;
   color: #737373;
-  
   font-size: 50px;
-  line-height: 30px;
 }
 #navBar {
   font-family: 'Poppins';
@@ -122,7 +122,7 @@ li {
   font-size: 30px;
   margin-left: 30px;
   text-align: justify;
-  line-height: 80px;
+  line-height: 130px;
   padding: 10px 20px 30px 10px;
 }
 
@@ -148,5 +148,5 @@ li {
   color: #737373;
   text-align: center;
   font-size: 50px;
-  line-height: 50px;
+  line-height: 60px;
 }
