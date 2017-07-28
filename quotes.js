@@ -52,12 +52,12 @@ var j = 0;
   
    if (!this.isDeleting && this.txt === fullTxt) {
      delta = 50;
-    j++;
      this.isDeleting = true;
    } else if (this.isDeleting && this.txt === '') {
      this.isDeleting = false;
      this.loopNum++;
      delta = 100;
+    this.j++'
    }
  
    setTimeout(function() {
