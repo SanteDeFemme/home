@@ -64,10 +64,13 @@ TxtRotate.prototype.tick = function() {
 
 function getQuote(){
   var elements = document.getElementsByClassName('txt-rotate');
-    var toRotate = elements[i].getAttribute("data-rotate");
-    var period = elements[i].getAttribute("data-period");
   for (var i=0; i<quotes.length; i++){
+       var toRotate = elements[i].getAttribute("data-rotate");
+    var period = elements[i].getAttribute("data-period");
+      if (toRotate) {
+      
             new TxtRotate(quotes[i], 5000);
+      }
   }
   // INJECT CSS
   var css = document.createElement("style");
