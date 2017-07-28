@@ -70,8 +70,8 @@ function getQuote(){
     var toRotate = elements[i].getAttribute('data-rotate');
     var period = elements[i].getAttribute('data-period');
     if (toRotate) {
-        for (var i=0; i<quotes.length; i++) {
-            new TxtRotate(elements[i], quotes[i], period);
+        for (var j=0; j<quotes.length; j++) {
+            new TxtRotate(elements[i], quotes[j], period);
         }
     }
   }
