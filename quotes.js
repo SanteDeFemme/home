@@ -23,9 +23,10 @@ function scrollWin(num) {
     window.scrollTo (0,num);
 }
 
-var TxtRotate = function(toRotate, period) {
+var TxtRotate = function(el, toRotate, period) {
   this.toRotate = toRotate;
   this.loopNum = 0;
+    this.el = el;
     this.isDeleting = false;
   this.period = parseInt(period, 10) || 2000;
   this.txt = '';
@@ -69,7 +70,7 @@ function getQuote(){
     var period = elements[i].getAttribute("data-period");
       if (toRotate) {
       
-            new TxtRotate(quotes[i], 5000);
+            new TxtRotate(elements[i], quotes[i], 5000);
       }
   }
   // INJECT CSS
