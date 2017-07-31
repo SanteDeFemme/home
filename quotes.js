@@ -55,13 +55,13 @@
     this.el.innerHTML = '<span class="wrap"> '+this.txt+'</span>';
   
     var that = this;
-    var delta = 300;
+    var delta = 70;
   
     if (this.isDeleting) { delta /= 2; }
 
   
    if (!this.isDeleting && this.txt === fullTxt) {
-     delta = 50;
+     delta = 300;
     this.isDeleting = true;
 
    } else if (this.isDeleting && this.txt === '') {
