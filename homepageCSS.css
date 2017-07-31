@@ -66,11 +66,14 @@ html {
   line-height: 0px;
   
 }
-#aboutus {
-  background-color:#ffffcc;
-  color: #737373;
-  line-height: 0px;
-  
+#aboutUs {
+    border-radius: 25px;
+    background: #ffffcc;
+    padding: 20px; 
+    width: 200px;
+    height: 150px; 
+   	font-family: Meddon;
+    text-align: center;
 }
 
 #picabout {
@@ -93,13 +96,16 @@ li {
     line-height: 2px;
 }
   
-#contactusTitle {
-  font-family: 'Poppins';
-  font-size: 70px;
-  padding: 0px;
-  text-align:center;
-  line-height: 0px;
+#contactUs {
+    border-radius: 25px;
+    background: #ffffcc;
+    padding: 20px; 
+    width: 200px;
+    height: 150px; 
+   	font-family: Meddon;
+    text-align: center;
 }
+
 
 #contactus {
   font-family: 'Poppins';
@@ -142,11 +148,12 @@ li {
   text-align:center;
   line-height: 50px;
 }
- #beyondus {
-  font-family: 'Poppins';
-  background-color:#C4EEAC;
-  color: #737373;
-  text-align: center;
-  font-size: 50px;
-  line-height: 60px;
+ #beyondUs {
+    border-radius: 25px;
+    background: #ffffcc;
+    padding: 20px; 
+    width: 200px;
+    height: 150px; 
+   	font-family: Meddon;
+    text-align: center;
 }
