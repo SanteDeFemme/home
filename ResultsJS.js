@@ -10,7 +10,7 @@ function getParams(){
 	}
 	return params;
 }
-window.onload = submitToResults;
+window.onload() = submitToResults();
 params = getParams();
 age = unescape(params["age"]);
 heightF = unescape(params["heightF"]);
@@ -45,6 +45,9 @@ var teststring="Test";
 if (age < 18 && occupation == "student" && gym == "no") {
 	document.getElementById("resultsPara").innerHTML = teststring;
 }
-
+var personA="StudentHome";
+var personB="StudentGym";
+var personC="WorkHome";
+var personD="WorkGym";
 }
 	
