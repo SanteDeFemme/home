@@ -44,3 +44,11 @@ else if (gym == "no") {
 	gymBool = false;
 }
 document.write("gym = " + gymBool + "<br>");
+
+teststring="Test";
+
+if (age < 18 && occupation == "student" && gym == "no") {
+	document.getElementById("resultsPara").innerHTML = teststring;
+}
+
+	
