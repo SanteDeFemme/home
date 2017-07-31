@@ -62,7 +62,7 @@
    if (!this.isDeleting && this.txt === fullTxt) {
      delta = 50;
     this.isDeleting = true;
-    sleep(1000);
+    sleep(500);
 
    } else if (this.isDeleting && this.txt === '') {
      this.isDeleting = false;
