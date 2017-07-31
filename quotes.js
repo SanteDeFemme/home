@@ -58,11 +58,13 @@
     var delta = 100;
   
     if (this.isDeleting) { delta /= 2; }
+  if (this.txt == fullTxt) {
+   sleep(500);
+  }
   
    if (!this.isDeleting && this.txt === fullTxt) {
      delta = 50;
     this.isDeleting = true;
-    sleep(500);
 
    } else if (this.isDeleting && this.txt === '') {
      this.isDeleting = false;
