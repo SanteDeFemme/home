@@ -20,11 +20,6 @@ gym = unescape(params["gym"]);
 occupation = unescape(params["occupation"]);
 diet = unescape(params["food"]);
 bmi = (weight / (height * height)) * 703;
-document.write("age = " + age + "<br>");
-document.write("height = " + height + "<br>");
-document.write("diet = " + diet + "<br>");
-document.write("occupation = " + occupation + "<br>");
-document.write("weight = " + weight + "<br>");
 bmiStr = "";
 if (bmi < 18.5) {
 	bmiStr = "Underweight";
@@ -35,7 +30,6 @@ if (bmi < 18.5) {
 } else if (bmi => 30) {
 	bmiStr = "Obese";
 }
-document.write("bmi = " + Math.round(bmi * 100) / 100 + "<br>");
 gymBool = false;
 if (gym == "yes") {
 	gymBool = true;
@@ -43,7 +37,6 @@ if (gym == "yes") {
 else if (gym == "no") {
 	gymBool = false;
 }
-document.write("gym = " + gymBool + "<br>");
 
 function submitToResults() {
 var teststring="Test";
