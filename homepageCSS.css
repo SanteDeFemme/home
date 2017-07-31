@@ -72,7 +72,7 @@ html {
     padding: 20px; 
     width: 200px;
     height: 150px; 
-   	font-family: Meddon;
+   	font-family: Poppins;
     text-align: center;
 }
 
@@ -102,14 +102,14 @@ li {
     padding: 20px; 
     width: 200px;
     height: 150px; 
-   	font-family: Meddon;
+   	font-family: Poppins;
     text-align: center;
 }
 
 
 #contactus {
   font-family: 'Poppins';
-  background-color:#e6e6ff;
+  background-color:#BCE5CF;
   color: #737373;
   font-size: 50px;
 }
@@ -150,7 +150,7 @@ li {
 }
  #beyondUs {
     border-radius: 25px;
-    background: #ffffcc;
+    background: #BCE5E5;
     padding: 20px; 
     width: 200px;
     height: 150px; 
