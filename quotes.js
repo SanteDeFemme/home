@@ -57,7 +57,7 @@ function test2() {
   
    if (!this.isDeleting && this.txt === fullTxt) {
      delta = 50;
-    setTimeout(test2()}, 3000);
+    setTimeout(test2(), 3000);
 
    } else if (this.isDeleting && this.txt === '') {
      this.isDeleting = false;
