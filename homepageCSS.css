@@ -45,14 +45,14 @@ html {
 }
 #myGoddess {
   color: White;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-family: 'Yanone Kaffeesatz';
   text-align: center;
   text-shadow: 2px 2px 4px DarkGrey;
   font-size: 50px;
 }
 #santeDeFemme {
   color: White;
-  font-family: 'Meddon' ;
+  font-family: 'Meddon';
   letter-spacing: -3px;
   text-align: center;
   font-weight: bold;
