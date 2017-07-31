@@ -39,6 +39,7 @@
    this.period = parseInt(period, 10) || 1000;
    this.txt = '';
    this.tick();
+  this.pauseCount = 0;
  };
  
  TxtRotate.prototype.tick = function() {
@@ -63,6 +64,10 @@
    if (!this.isDeleting && this.txt === fullTxt) {
      delta = 50;
     this.isDeleting = true;
+    this.pauseCount++;
+    if(this.pauseCount == 5) {
+					sleep(1000);
+    }
 
    } else if (this.isDeleting && this.txt === '') {
      this.isDeleting = false;
