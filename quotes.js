@@ -61,7 +61,7 @@
 
   
    if (!this.isDeleting && this.txt === fullTxt) {
-     delta = 500;
+     delta = 1000;
     this.isDeleting = true;
 
    } else if (this.isDeleting && this.txt === '') {
