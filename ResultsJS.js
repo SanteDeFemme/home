@@ -37,6 +37,7 @@ if (gym == "yes") {
 else if (gym == "no") {
 	gymBool = false;
 }
+submitToResults();
 
 function submitToResults() {
 var teststring="Test";
