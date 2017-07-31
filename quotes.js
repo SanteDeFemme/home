@@ -22,7 +22,7 @@
  function scrollWin(num) {
      window.scrollTo (0,num);
  }
- 
+
  var TxtRotate = function(el, toRotate, period) {
    this.toRotate = toRotate;
    this.el = el;
@@ -48,20 +48,14 @@
     this.el.innerHTML = '<span class="wrap"> '+this.txt+'</span>';
   
     var that = this;
- var delta = 100;
+    var delta = 100;
   
     if (this.isDeleting) { delta /= 2; }
   
    if (!this.isDeleting && this.txt === fullTxt) {
      delta = 50;
-     this.isDeleting = true;
-    var x = 1;
-var y = null; // To keep under proper scope
+    setTimeout(function() {this.isDeleting = true;}, 3000)
 
-setTimeout(function() {
-    x = x * 3 + 2;
-    y = x / 2;
-}, 1000);
    } else if (this.isDeleting && this.txt === '') {
      this.isDeleting = false;
      this.loopNum++;
