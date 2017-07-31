@@ -60,7 +60,7 @@
     if (this.isDeleting) { delta /= 2; }
 
   
-   if (!this.isDeleting && this.txt === fullTxt && this.fullpause == false) {
+   if (!this.isDeleting && this.txt === fullTxt) {
      delta = 50;
     this.isDeleting = true;
 
