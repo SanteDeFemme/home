@@ -65,7 +65,7 @@
      delta = 50;
     this.isDeleting = true;
     this.pauseCount++;
-    if(this.pauseCount == 5) {
+    if(this.pauseCount == 3) {
 					sleep(1000);
     }
 
