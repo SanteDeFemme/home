@@ -17,7 +17,14 @@
  //     document.getElementById("quote").innerHTML = chosenQuote;
  //     setTimeout(getQuote, 5000);
  // }
- 
+ function sleep(milliseconds) {
+  var start = new Date().getTime();
+  for (var i = 0; i < 1e7; i++) {
+    if ((new Date().getTime() - start) > milliseconds){
+      break;
+    }
+  }
+}
 
  function scrollWin(num) {
      window.scrollTo (0,num);
@@ -54,7 +61,8 @@
   
    if (!this.isDeleting && this.txt === fullTxt) {
      delta = 50;
-    setTimeout(function test3() {this.isDeleting = true;}, 1000);
+    this.isDeleting = true;
+    sleep(1000);
 
    } else if (this.isDeleting && this.txt === '') {
      this.isDeleting = false;
