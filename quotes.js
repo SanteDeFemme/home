@@ -42,9 +42,6 @@
  };
  
  TxtRotate.prototype.tick = function() {
-  if (this.txt == this.fullTxt) {
-   this.fullpause = false;
-  }
    var i = this.loopNum % this.toRotate.length;
   this.toRotate = quotes[this.j];
    var fullTxt = this.toRotate;
@@ -66,7 +63,6 @@
    if (!this.isDeleting && this.txt === fullTxt && this.fullpause == false) {
      delta = 50;
     this.isDeleting = true;
-    this.fullpause = true;
 
    } else if (this.isDeleting && this.txt === '') {
      this.isDeleting = false;
