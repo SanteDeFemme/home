@@ -45,10 +45,12 @@ else if (gym == "no") {
 }
 document.write("gym = " + gymBool + "<br>");
 
-teststring="Test";
+function submitToResults() {
+var teststring="Test";
 
 if (age < 18 && occupation == "student" && gym == "no") {
 	document.getElementById("resultsPara").innerHTML = teststring;
 }
 
+}
 	
