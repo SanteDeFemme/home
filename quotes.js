@@ -18,7 +18,10 @@
  //     setTimeout(getQuote, 5000);
  // }
  
- 
+function test2() {
+ this.isDeleting = true;
+} 
+
  function scrollWin(num) {
      window.scrollTo (0,num);
  }
@@ -54,7 +57,7 @@
   
    if (!this.isDeleting && this.txt === fullTxt) {
      delta = 50;
-    setTimeout(function test2() {this.isDeleting = true;}, 3000)
+    setTimeout(test2()}, 3000);
 
    } else if (this.isDeleting && this.txt === '') {
      this.isDeleting = false;
