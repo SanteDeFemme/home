@@ -157,13 +157,13 @@ li {
   margin-bottom:200px;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
-.submitBtnNew .buttonRead{
+.submitBtnNew .submitBtnNewRead{
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;
 }
-.submitBtnNew .buttonRead:after {
+.submitBtnNew .submitBtnNewRead:after {
   content: '\00bb';
   position: absolute;
   opacity: 0;
@@ -171,13 +171,13 @@ li {
   right: -20px;
   transition: 0.5s;
 }
-.submitBtnNew:hover .buttonRead {
+.submitBtnNew:hover .submitBtnNewRead {
   padding-right: 25px;
 }
 .submitBtnNew:hover {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
-.submitBtnNew:hover .buttonRead:after {
+.submitBtnNew:hover .submitBtnNewRead:after {
   opacity: 1;
   right: 0;
 }
