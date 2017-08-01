@@ -38,7 +38,7 @@ function submitted() {
 	else if (this.gym == "no") {
 		this.gymBool = false;
 	}
-	submitToResults();
+	window.onload = submitToResults();
 	}
 
 function submitToResults() {
