@@ -98,6 +98,16 @@ li {
     display: inline;
 }
 
+#contactus > br {
+    line-height: 2px;
+}
+  #contactus {
+  font-family: 'Poppins';
+  background: #BB8496;
+  color: #737373;
+  font-size: 50px;
+}
+
 #contactUs {
     border-radius: 25px;
     background: #BB8496;
