@@ -42,34 +42,42 @@ submitToResults();
 
 function submitToResults() {
 	this.resultsStr = "";
-	var personA = "School can be time consuming, so in between your course load you can try these exercises. You can also stay \
-	active by joining a school team! . Remember it is important to also maintain this routine with a healthy diet and mental \
-	health. https://www.rodalewellness.com/fitness/bodyweight-exercises \
-	http://www.womenshealthmag.com/fitness/home-workouts \
-	http://www.shape.com/fitness/workouts/ultimate-home-workout \
-	https://www.popsugar.com/fitness/Printable-Total-Body--Equipment-Workout-2058846";
+	var personA = "School can be time consuming, so in between your course load you can try these exercises.\
+	You can also stay active by joining a school team! You can use these exercises for different days, to work out different\
+	muscles. While you may have a specific fitness goal in mind, it is important to do entire body workouts to maintain a proper and healthy \
+	physique while you are still growing. While these at home workouts can make stronger, remember it is important to also maintain this \
+	routine with a healthy diet and mental health. The best way to approach exercise is consistency, create a plan of exercise according to you schedule. \
+	<a href='https://www.rodalewellness.com/fitness/bodyweight-exercises'>Exercise 1</a> \
+	<a href='http://www.womenshealthmag.com/fitness/home-workouts'>Exercise 2</a> \
+	<a href='http://www.shape.com/fitness/workouts/ultimate-home-workout'>Exercise 3</a> \
+	<a href='https://www.popsugar.com/fitness/Printable-Total-Body--Equipment-Workout-2058846'>Exercise 4</a>";
 	
-	var personB = "If you are able to go to the gym, you can try these exercises. Remember to take at least one day of rest per \
-	week to let your body relax. Remember it is important to also maintain this routine with a healthy diet and mental health. \
-	https://www.bodybuilding.com/content/ultimate-beginners-machine-workout-for-women.html \
-	http://www.shape.com/fitness/workouts/4-week-weight-training-plan-women \
-	Try this body shape specific workout routine! \
-	http://www.womenshealthmag.com/fitness/best-workout-for-your-body-type";
+	var personB = "If you are able to go to the gym, you can try these exercises. Remember to take at least one day of rest per week to \
+	let your body relax. While you may see others with rigorous workouts, remember to start off with less intense workouts and continue to \
+	increase the difficulty. It is important to also maintain this routine with a healthy diet and mental health. The best way to approach \
+	exercise is consistency, create a plan of exercise according to you schedule. \
+	<a href='https://www.bodybuilding.com/content/ultimate-beginners-machine-workout-for-women.html'>Exercise 1</a> \
+	<a href='http://www.shape.com/fitness/workouts/4-week-weight-training-plan-women'>Exercise 2</a> \
+	<a href='http://www.womenshealthmag.com/fitness/best-workout-for-your-body-type'>Try this body shape specific workout routine!</a>";
 	
-	var personC = "If you are busy with work, try these at home exercises to keep up a fitness routine. Remember to take at \
-	least one day of rest per week to let your body relax. Remember it is important to also maintain this routine with a healthy \
-	diet and mental health. \
-	https://www.rodalewellness.com/fitness/bodyweight-exercises \
-	http://www.womenshealthmag.com/fitness/home-workouts \
-	http://www.shape.com/fitness/workouts/ultimate-home-workout \
-	https://www.popsugar.com/fitness/Printable-Total-Body--Equipment-Workout-2058846";
+	var personC = "If you are busy with work, try these at home exercises to keep up a fitness routine. You can use these exercises for \
+	different days, to work out different muscles. Especially with a work schedule, it is important to stay active between hours in order \
+	to prevent any pain or physical stress. Remember it is important to also maintain this routine with a healthy diet and mental health. \
+	The best way to approach exercise is consistency, create a plan of exercise according to you schedule. \
+	<a href='https://www.rodalewellness.com/fitness/bodyweight-exercises'>Exercise 1</a> \
+	<a href='http://www.womenshealthmag.com/fitness/home-workouts'>Exercise 2</a> \
+	<a href='http://www.shape.com/fitness/workouts/ultimate-home-workout'>Exercise 3</a> \
+	<a href='https://www.popsugar.com/fitness/Printable-Total-Body--Equipment-Workout-2058846'>Exercise 4</a>";
 
-	var personD = "Based on your work schedule, you can find time for a gym membership. Remember to take at least one day of rest \
-	per week to let your body relax. Remember it is important to also maintain this routine with a healthy diet and mental health. \
-	https://www.bodybuilding.com/content/ultimate-beginners-machine-workout-for-women.html \
-	http://www.shape.com/fitness/workouts/4-week-weight-training-plan-women \
-	Try this body shape specific workout routine! \
-	http://www.womenshealthmag.com/fitness/best-workout-for-your-body-type";
+	var personD = "Based on your work schedule, you can find time for a gym membership. Always take at least one day of rest per week to \
+	let your body relax. While you may see others with rigorous workouts, remember to start off with less intense workouts and continue \
+	to increase the difficulty. Remember it is important to also maintain this routine with a healthy diet and mental health. The best way \
+	to approach exercise is consistency, create a plan of exercise according to you schedule. \
+
+	<a href='https://www.bodybuilding.com/content/ultimate-beginners-machine-workout-for-women.html'>Exercise 1</a> \
+	<a href='http://www.shape.com/fitness/workouts/4-week-weight-training-plan-women'>Exercise 2</a> \
+	<a href='http://www.womenshealthmag.com/fitness/best-workout-for-your-body-type'>Try this body shape specific workout routine!</a>";
+	
 	if (this.occupation == "student" && this.gym == "no") {
 		 this.resultsStr = personA;
 	} else if (this.occupation == "student" && this.gym == "yes") {
