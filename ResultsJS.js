@@ -1,16 +1,16 @@
 function getParams(){
 	var idx = document.URL.indexOf('?');
-	var params = new Array();
+	this.params = new Array();
 	if (idx != -1) {
 		var pairs = document.URL.substring(idx+1, document.URL.length).split('&');
 		for (var i=0; i<pairs.length; i++){
 			nameVal = pairs[i].split('=');
-			params[nameVal[0]] = nameVal[1];
+			this.params[nameVal[0]] = nameVal[1];
 		}
-	}
-	return params;
+	
 }
-	params = getParams();
+function submitted() {
+	window.onload = getParams;
 	this.age = unescape(params["age"]);
 	this.heightF = unescape(params["heightF"]);
 	this.heightI = unescape(params["heightI"]);
@@ -38,6 +38,7 @@ function getParams(){
 		this.gymBool = false;
 	}
 	window.onload = submitToResults();
+	}
 
 function submitToResults() {
 	var resultsStr = "";
