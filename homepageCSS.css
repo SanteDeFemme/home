@@ -48,7 +48,7 @@ html {
   font-family: 'Open Sans Condensed';
   text-align: center;
   text-shadow: 2px 2px 4px DarkGrey;
-  font-size: 25px;
+  font-size: 20px;
 }
 #santeDeFemme {
   color: White;
@@ -73,7 +73,7 @@ html {
     font-size: 30px;
     color: White;
 }
-#aboutDiv {
+.aboutDiv {
   border-radius: 25px;
     background: #BB8496;
     padding: 20px; 
@@ -103,10 +103,11 @@ li {
     background: #BB8496;
     padding: 20px; 
     width: 1200px;
-    height: 900px; 
+    height: 250px; 
    	font-family: Poppins;
     font-size: 50px;
     color: White;
+    margin:20px;
 }
 
 #startText {
@@ -133,6 +134,12 @@ li {
   padding: 10px 20px 30px 10px;
 }
 
+#contactUsTitle{
+  font-family: 'Poppins';
+  font-size: 90px;
+  text-align:center;
+}
+
 .submitBtnNew {
   background-color: #BCE5E5;
   padding:20px;
@@ -142,6 +149,7 @@ li {
   font-weight: bold;
   font-family: 'Patrick Hand', cursive;
   color: #f2f2f2;
+  margin-bottom:200px;
 }
 #beyondUsTitle {
   font-family: 'Poppins';
@@ -149,16 +157,23 @@ li {
   text-align:center;
   line-height: 0px;
   color: White;
+  height:100px;
+  margin-top: 10px;
+  margin-bottom:0px;
 }
  #beyondUs {
     border-radius: 25px;
     background: #BB8496;
-    padding: 20px; 
+    
+    padding: 30px; 
+    padding-top:50px;
     width: 1200px;
     height: 900px; 
    	font-family: Poppins;
-    font-size: 50px;
+    font-size: 30px;
     color: White;
+    margin-top:5px;
+    
 }
 
 #startText {
