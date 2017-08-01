@@ -12,31 +12,31 @@ function getParams(){
 }
 window.onload = submitToResults();
 params = getParams();
-age = unescape(params["age"]);
-heightF = unescape(params["heightF"]);
-heightI = unescape(params["heightI"]);
-height = +(heightF * 12) + +heightI;
-weight = unescape(params["weight"]);
-gym = unescape(params["gym"]);
-occupation = unescape(params["occupation"]);
-diet = unescape(params["food"]);
-bmi = (weight / (height * height)) * 703;
-bmiStr = "";
-if (bmi < 18.5) {
-	bmiStr = "Underweight";
-} else if (bmi >= 18.5 && bmi <= 24.9) {
-	bmiStr = "Healthy";
-} else if (bmi >= 25 && bmi <= 29.9) {
-	bmiStr = "Overweight";
+this.age = unescape(params["age"]);
+this.heightF = unescape(params["heightF"]);
+this.heightI = unescape(params["heightI"]);
+this.height = +(heightF * 12) + +heightI;
+this.weight = unescape(params["weight"]);
+this.gym = unescape(params["gym"]);
+this.occupation = unescape(params["occupation"]);
+this.diet = unescape(params["food"]);
+this.bmi = (weight / (height * height)) * 703;
+this.bmiStr = "";
+if (this.bmi < 18.5) {
+	this.bmiStr = "Underweight";
+} else if (this.bmi >= 18.5 && this.bmi <= 24.9) {
+	this.bmiStr = "Healthy";
+} else if (this.bmi >= 25 && this.bmi <= 29.9) {
+	this.bmiStr = "Overweight";
 } else if (bmi => 30) {
-	bmiStr = "Obese";
+	this.bmiStr = "Obese";
 }
-gymBool = false;
-if (gym == "yes") {
-	gymBool = true;
+this.gymBool = false;
+if (this.gym == "yes") {
+	this.gymBool = true;
 }
-else if (gym == "no") {
-	gymBool = false;
+else if (this.gym == "no") {
+	this.gymBool = false;
 }
 
 function submitToResults() {
@@ -69,13 +69,13 @@ https://www.bodybuilding.com/content/ultimate-beginners-machine-workout-for-wome
 http://www.shape.com/fitness/workouts/4-week-weight-training-plan-women \
 Try this body shape specific workout routine! \
 http://www.womenshealthmag.com/fitness/best-workout-for-your-body-type";
-if (occupation == "student" && gym == "no") {
+if (this.occupation == "student" && this.gym == "no") {
 	 resultsStr = "personA";
-}if (occupation == "student" && gym == "yes") {
+}if (this.occupation == "student" && this.gym == "yes") {
 	 resultsStr = "personB";
-}if (occupation == "work" && gym == "no") {
+}if (this.occupation == "work" && this.gym == "no") {
 	 resultsStr = "personC";
-}if (occupation == "work" && gym == "yes") {
+}if (this.occupation == "work" && this.gym == "yes") {
 	 resultsStr = "personD";
 }
 	document.getElementById("resultsPara").innerHTML = resultsStr;
