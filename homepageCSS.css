@@ -109,7 +109,7 @@ li {
     color: White;
     margin:20px;
     text-decoration: none;
-    text-align: center;
+    text-align:center;
 }
 
 #startText {
@@ -196,7 +196,6 @@ li {
     font-size: 30px;
     color: White;
     margin-top:5px;
-    
 }
 
 #startText {
