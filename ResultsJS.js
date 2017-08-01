@@ -42,6 +42,7 @@ submitToResults();
 
 function submitToResults() {
 	this.resultsStr = "";
+	this.resultsFood = "";
 	var personA = "School can be time consuming, so in between your course load you can try these exercises.\
 	You can also stay active by joining a school team! You can use these exercises for different days, to work out different\
 	muscles. While you may have a specific fitness goal in mind, it is important to do entire body workouts to maintain a proper and healthy \
@@ -106,15 +107,16 @@ function submitToResults() {
 	 this.resultsStr = personD;
 	}
 	if (this.diet == "vegan") {
-		this.resultsStr = vegan;
+		this.resultsSFood = vegan;
 	} else if (this.diet == "veg") {
-		this.resultsStr = veg;
+		this.resultsFood = veg;
 	} else if (this.diet == "nonveg") {
-		this.resultsStr = nonveg;
+		this.resultsFood = nonveg;
 	}
 }
 
 	
 window.onload = function() {
 	document.getElementById("resultsPara").innerHTML = this.resultsStr;
+	document.getElementById("resultsPara").innerHTML = this.resultsFood;
 }
