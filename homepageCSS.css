@@ -67,16 +67,18 @@ html {
   
 }
 #aboutUs {
-    border-radius: 25px;
-    background: #A3848F;
-    padding: 20px; 
-    width: 91%;
-    margin: 50px;
-    height: 900px; 
    	font-family: Poppins;
     text-align:center;
     font-size: 30px;
     color: White;
+}
+#aboutDiv {
+  border-radius: 25px;
+    background: #A3848F;
+    padding: 20px; 
+    width: 91%;
+    margin: 50px;
+    height: 500px; 
 }
 
 #picabout {
