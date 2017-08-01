@@ -78,6 +78,25 @@ function submitToResults() {
 	<a href='http://www.shape.com/fitness/workouts/4-week-weight-training-plan-women'>Exercise 2</a> \
 	<a href='http://www.womenshealthmag.com/fitness/best-workout-for-your-body-type'>Try this body shape specific workout routine!</a>";
 	
+	var vegan = "While a Vegan diet is proven to be healthy, it is important to eat in proper quantities. Protein, Calcium, and \
+	Omega3 supplements in various foods are important to maintain your health. These food options are helpful in planning out your meals.\
+	<a href='https://www.peta.org/living/food/two-week-vegan-meal-plan/'>Meal Plan 1</a> \
+	<a href='https://www.realsimple.com/food-recipes/recipe-collections-favorites/healthy-meals/easy-vegan-recipes'>Meal Plan 2</a> \
+	<a href='http://www.seriouseats.com/2016/03/vegan-meal-plan.html'>Meal Plan 3</a>";
+	
+	var veg = "These meal plans below can help you get started on planning a proper diet. In order to prevent any deficiencies in protein \
+	or other substances, you can plan out your meals to include healthy foods specific to your needs. \
+	<a href='http://www.cookinglight.com/food/vegetarian/vegetarian-meals'>Meal Plan 1</a> \
+	<a href='http://allrecipes.com/recipes/87/everyday-cooking/vegetarian/'>Meal Plan 2</a> \
+	<a href='http://www.countryliving.com/food-drinks/g1186/vegetarian-recipes-0309/'>Meal Plan 3</a>";
+	
+	var nonveg = "These meal plans below can help you get started on planning a proper diet. If there are no dietary restrictions, \
+	take advantage of this and eat healthy foods from all sources. \
+	<a href='http://www.thehealthsite.com/fitness/diet-chart-and-tips-for-non-vegetarians/'>Meal Plan 1</a> \
+	<a href='http://www.indiatimes.com/health/tips-tricks/nonvegetarian-diet-plan-7-days-weight-loss-diet-236826.html'>Meal Plan 2</a> \
+	<a href='http://www.livestrong.com/article/198340-how-to-plan-a-non-vegetarian-diet/'>Meal Plan 3</a>";
+
+
 	if (this.occupation == "student" && this.gym == "no") {
 		 this.resultsStr = personA;
 	} else if (this.occupation == "student" && this.gym == "yes") {
@@ -86,6 +105,13 @@ function submitToResults() {
 		 this.resultsStr = personC;
 	} else if (this.occupation == "work" && this.gym == "yes") {
 	 this.resultsStr = personD;
+	}
+	if (this.diet == "vegan") {
+		this.resultsStr = vegan;
+	} else if (this.diet == "veg") {
+		this.resultsStr = veg;
+	} else if (this.diet == "nonveg") {
+		this.resultsStr = nonveg;
 	}
 }
 
