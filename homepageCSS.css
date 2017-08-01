@@ -158,3 +158,12 @@ li {
    	font-family: Poppins;
     text-align:center;
 }
+
+#startText {
+  color: White;
+  font-size: 30px;
+}
+#startArrow {
+  color: White;
+  font-size: 50px;
+}
