@@ -118,5 +118,5 @@ function submitToResults() {
 	
 window.onload = function() {
 	document.getElementById("resultsPara").innerHTML = this.resultsStr;
-	document.getElementById("resultsPara").innerHTML = this.resultsFood;
+	document.getElementById("resultsPara").innerHTML += " " + this.resultsFood;
 }
