@@ -141,14 +141,14 @@ li {
 }
 
 .submitBtnNew {
-  background-color: #BCE5E5;
+  background-color: #BB8496;
   padding:20px;
-  border: 2px solid #f2f2f2;
+  border: 2px solid White;
   border-radius: 7px;
   font-size: 40px;
   font-weight: bold;
   font-family: 'Patrick Hand', cursive;
-  color: #f2f2f2;
+  color: White;
   margin-bottom:200px;
 }
 #beyondUsTitle {
