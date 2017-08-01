@@ -2,7 +2,10 @@
   font-size: 25px;
   color: #6A6566;
   font-family: Poppins;
-  margin: 45px;
+  margin-top: 45px;
+  margin-bottom: 45px;
+  margin-right: 100px;
+  margin-left: 100px;
 }
 html {
     background-color: #F5DAE3;
