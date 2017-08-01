@@ -38,10 +38,10 @@ function getParams(){
 	else if (this.gym == "no") {
 		this.gymBool = false;
 	}
-	window.onload = submitToResults();
+submitToResults();
 
 function submitToResults() {
-	var resultsStr = "";
+	this.resultsStr = "";
 	var personA = "School can be time consuming, so in between your course load you can try these exercises. You can also stay \
 	active by joining a school team! . Remember it is important to also maintain this routine with a healthy diet and mental \
 	health. https://www.rodalewellness.com/fitness/bodyweight-exercises \
@@ -71,14 +71,17 @@ function submitToResults() {
 	Try this body shape specific workout routine! \
 	http://www.womenshealthmag.com/fitness/best-workout-for-your-body-type";
 	if (this.occupation == "student" && this.gym == "no") {
-		 resultsStr = "personA";
+		 this.resultsStr = "personA";
 	} else if (this.occupation == "student" && this.gym == "yes") {
-		 resultsStr = "personB";
+		 this.resultsStr = "personB";
 	} else if (this.occupation == "work" && this.gym == "no") {
-		 resultsStr = "personC";
+		 this.resultsStr = "personC";
 	} else if (this.occupation == "work" && this.gym == "yes") {
-	 resultsStr = "personD";
+	 this.resultsStr = "personD";
 	}
-	document.getElementById("resultsPara").innerHTML = resultsStr;
 }
+
 	
+window.onload = function() {
+	document.getElementById("resultsPara").innerHTML = this.resultsStr;
+}
