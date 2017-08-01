@@ -50,6 +50,32 @@ img {
     font-size: 1.4em;
     margin-bottom: 10px;
 }
+.styled-select {
+   background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
+  border-radius: 5px;
+   overflow: hidden;
+   width: 240px;
+  background-color: #3b8ec2;
+}
+
+.styled-select select {
+   background: transparent;
+   border: none;
+  color: #fff;
+   font-size: 14px;
+  
+   height: 29px;
+   padding: 5px; /* If you add too much padding here, the options won't show in IE */
+   width: 268px;
+}
+
+.styled-select.slate {
+   background: url(http://i62.tinypic.com/2e3ybe1.jpg) no-repeat right center;
+   height: 34px;
+   width: 240px;
+}
+
+
 
 .form-style input[type="text"] {
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -70,14 +96,8 @@ img {
     box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
     margin-bottom: 30px;
 }
-.form-style input[type="text"]:focus,
-.form-style selct:focus {
+.form-style input[type="text"]:focus {
   background: #d2d9dd;
-}
-
-.form-style select {
-  background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
-  overflow:hidden;
 }
 
 .form-style .number {
