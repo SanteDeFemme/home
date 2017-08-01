@@ -48,7 +48,7 @@ html {
   font-family: 'Open Sans Condensed';
   text-align: center;
   text-shadow: 2px 2px 4px DarkGrey;
-  font-size: 20px;
+  font-size: 25px;
 }
 #santeDeFemme {
   color: White;
@@ -96,16 +96,6 @@ ul {
 }
 li {
     display: inline;
-}
-
-#contactus > br {
-    line-height: 2px;
-}
-  #contactus {
-  font-family: 'Poppins';
-  background: #BB8496;
-  color: #737373;
-  font-size: 50px;
 }
 
 #contactUs {
