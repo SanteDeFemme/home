@@ -108,6 +108,7 @@ li {
     font-size: 50px;
     color: White;
     margin:20px;
+    text-decoration: none;
 }
 
 #startText {
@@ -150,6 +151,7 @@ li {
   font-weight: bold;
   color: White;
   margin-bottom:200px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 #beyondUsTitle {
   font-family: 'Poppins';
