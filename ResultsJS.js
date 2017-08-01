@@ -73,7 +73,6 @@ function submitToResults() {
 	let your body relax. While you may see others with rigorous workouts, remember to start off with less intense workouts and continue \
 	to increase the difficulty. Remember it is important to also maintain this routine with a healthy diet and mental health. The best way \
 	to approach exercise is consistency, create a plan of exercise according to you schedule. \
-
 	<a href='https://www.bodybuilding.com/content/ultimate-beginners-machine-workout-for-women.html'>Exercise 1</a> \
 	<a href='http://www.shape.com/fitness/workouts/4-week-weight-training-plan-women'>Exercise 2</a> \
 	<a href='http://www.womenshealthmag.com/fitness/best-workout-for-your-body-type'>Try this body shape specific workout routine!</a>";
