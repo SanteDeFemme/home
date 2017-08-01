@@ -158,17 +158,10 @@ li {
   line-height: 0px;
   color: White;
   height:100px;
-  margin-top: 10px;
   margin-bottom:0px;
 }
  #beyondUs {
-    border-radius: 25px;
-    background: #BB8496;
-    
     padding: 30px; 
-    padding-top:50px;
-    width: 1200px;
-    height: 900px; 
    	font-family: Poppins;
     font-size: 30px;
     color: White;
