@@ -135,15 +135,18 @@ li {
   padding: 10px 20px 30px 10px;
 }
 
-#contactUsTitle{
+#contactUsTitle {
   font-family: 'Poppins';
   font-size: 90px;
   text-align:center;
+  line-height: 0px;
+  color: White;
+  height:100px;
+  margin-bottom:0px;
 }
-
 .submitBtnNew {
   font-family: 'Poppins';
-  background-color: #F5DAE3;
+  background-color: #BB8496;
   padding:20px;
   border: 2px solid White;
   border-radius: 7px;
