@@ -9,6 +9,7 @@ function getParams(){
 		}
 		return params;
 	
+	}
 }
 	params = getParams;
 	this.age = unescape(params["age"]);
