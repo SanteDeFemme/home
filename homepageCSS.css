@@ -59,7 +59,7 @@ html {
   font-size: 120px;
   line-height: 30px;
 }
-#aboutusTitle {
+#aboutUsTitle {
   font-family: 'Poppins';
   font-size: 90px;
   text-align:center;
@@ -105,7 +105,7 @@ li {
 #contactUs {
     border-radius: 25px;
     background: #A3848F;
-    padding: 40px; 
+    padding: 20px; 
     width: 1200px;
     height: 900px; 
    	font-family: Poppins;
