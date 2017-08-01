@@ -11,7 +11,7 @@ function getParams(){
 	
 	}
 }
-	params = getParams;
+	params = getParams();
 	this.age = unescape(params["age"]);
 	this.heightF = unescape(params["heightF"]);
 	this.heightI = unescape(params["heightI"]);
