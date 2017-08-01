@@ -55,12 +55,13 @@ img {
   border-radius: 5px;
    overflow: hidden;
    width: 240px;
+  background-color: White;
 }
 
 .styled-select select {
    background: transparent;
    border: none;
-  color: #fff;
+  color: #8a97a0;
    font-size: 14px;
   
    height: 29px;
