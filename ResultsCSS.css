@@ -1,6 +1,10 @@
 #resultsPara {
   font-size: 25px;
+  color: #878082;
   font-family: Poppins;
-  color: white;
   margin: 45px;
+}
+
+a {
+  color: Black;
 }
