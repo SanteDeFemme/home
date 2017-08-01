@@ -71,13 +71,13 @@ function submitToResults() {
 	Try this body shape specific workout routine! \
 	http://www.womenshealthmag.com/fitness/best-workout-for-your-body-type";
 	if (this.occupation == "student" && this.gym == "no") {
-		 this.resultsStr = "personA";
+		 this.resultsStr = personA;
 	} else if (this.occupation == "student" && this.gym == "yes") {
-		 this.resultsStr = "personB";
+		 this.resultsStr = personB;
 	} else if (this.occupation == "work" && this.gym == "no") {
-		 this.resultsStr = "personC";
+		 this.resultsStr = personC;
 	} else if (this.occupation == "work" && this.gym == "yes") {
-	 this.resultsStr = "personD";
+	 this.resultsStr = personD;
 	}
 }
 
