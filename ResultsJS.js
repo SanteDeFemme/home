@@ -10,34 +10,36 @@ function getParams(){
 	}
 	return params;
 }
-params = getParams();
-this.age = unescape(params["age"]);
-this.heightF = unescape(params["heightF"]);
-this.heightI = unescape(params["heightI"]);
-this.height = +(heightF * 12) + +heightI;
-this.weight = unescape(params["weight"]);
-this.gym = unescape(params["gym"]);
-this.occupation = unescape(params["occupation"]);
-this.diet = unescape(params["food"]);
-this.bmi = (weight / (height * height)) * 703;
-this.bmiStr = "";
-if (this.bmi < 18.5) {
-	this.bmiStr = "Underweight";
-} else if (this.bmi >= 18.5 && this.bmi <= 24.9) {
-	this.bmiStr = "Healthy";
-} else if (this.bmi >= 25 && this.bmi <= 29.9) {
-	this.bmiStr = "Overweight";
-} else if (bmi => 30) {
-	this.bmiStr = "Obese";
-}
-this.gymBool = false;
-if (this.gym == "yes") {
-	this.gymBool = true;
-}
-else if (this.gym == "no") {
+function submitted() {
+	params = getParams();
+	this.age = unescape(params["age"]);
+	this.heightF = unescape(params["heightF"]);
+	this.heightI = unescape(params["heightI"]);
+	this.height = +(heightF * 12) + +heightI;
+	this.weight = unescape(params["weight"]);
+	this.gym = unescape(params["gym"]);
+	this.occupation = unescape(params["occupation"]);
+	this.diet = unescape(params["food"]);
+	this.bmi = (weight / (height * height)) * 703;
+	this.bmiStr = "";
+	if (this.bmi < 18.5) {
+		this.bmiStr = "Underweight";
+	} else if (this.bmi >= 18.5 && this.bmi <= 24.9) {
+		this.bmiStr = "Healthy";
+	} else if (this.bmi >= 25 && this.bmi <= 29.9) {
+		this.bmiStr = "Overweight";
+	} else if (bmi => 30) {
+		this.bmiStr = "Obese";
+	}
 	this.gymBool = false;
-}
-window.onload = submitToResults();
+	if (this.gym == "yes") {
+		this.gymBool = true;
+	}
+	else if (this.gym == "no") {
+		this.gymBool = false;
+	}
+	window.onload = submitToResults();
+	}
 
 function submitToResults() {
 	var resultsStr = "";
