@@ -143,5 +143,5 @@ function submitToResults() {
 window.onload = function() {
 	document.getElementById("resultsPara").innerHTML = this.resultsStr;
 	document.getElementById("resultsPara").innerHTML += " " + this.resultsFood;
-	document.getElementById("bmiPara").innerHTML = Math.round(this.bmi * 100) / 100 + " - " + this.bmiStr;
+	document.getElementById("bmiPara").innerHTML = "Bmi: " + Math.round(this.bmi * 100) / 100 + " - " + this.bmiStr;
 }
