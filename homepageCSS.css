@@ -89,7 +89,7 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    color: white;
+    color: White;
 }
 li {
     display: inline;
@@ -107,6 +107,7 @@ li {
     height: 900px; 
    	font-family: Poppins;
     font-size: 50px;
+    color: White;
 }
 
 
@@ -163,6 +164,7 @@ li {
     height: 900px; 
    	font-family: Poppins;
     font-size: 50px;
+    color: White;
 }
 
 #startText {
