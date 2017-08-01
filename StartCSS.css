@@ -35,7 +35,7 @@ img {
   font-size: 20px;
 }
 form-style {
-  display: block;
+  display: inline;
     margin-bottom: 8px;
   max-width: 500px;
     padding: 10px 20px;
