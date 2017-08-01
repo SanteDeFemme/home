@@ -7,10 +7,10 @@ function getParams(){
 			nameVal = pairs[i].split('=');
 			this.params[nameVal[0]] = nameVal[1];
 		}
+		return params;
 	
 }
-function submitted() {
-	window.onload = getParams;
+	params = getParams;
 	this.age = unescape(params["age"]);
 	this.heightF = unescape(params["heightF"]);
 	this.heightI = unescape(params["heightI"]);
@@ -38,7 +38,6 @@ function submitted() {
 		this.gymBool = false;
 	}
 	window.onload = submitToResults();
-	}
 
 function submitToResults() {
 	var resultsStr = "";
