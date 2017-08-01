@@ -10,7 +10,7 @@ function getParams(){
 	}
 	return params;
 }
-window.onload() = submitToResults();
+window.onload = submitToResults();
 params = getParams();
 age = unescape(params["age"]);
 heightF = unescape(params["heightF"]);
