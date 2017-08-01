@@ -75,7 +75,7 @@ html {
     height: 900px; 
    	font-family: Poppins;
     text-align:center;
-    font-size: 60px
+    font-size: 50px;
 }
 
 #picabout {
@@ -106,6 +106,7 @@ li {
     height: 900px; 
    	font-family: Poppins;
     text-align:center;
+    font-size: 50px;
 }
 
 
@@ -158,6 +159,7 @@ li {
     height: 900px; 
    	font-family: Poppins;
     text-align:center;
+    font-size: 50px;
 }
 
 #startText {
