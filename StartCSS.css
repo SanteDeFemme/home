@@ -51,8 +51,7 @@ img {
     margin-bottom: 10px;
 }
 
-.form-style input[type="text"],
-.form-style select {
+.form-style input[type="text"] {
   font-family: Georgia, "Times New Roman", Times, serif;
     background: rgba(255,255,255,.1);
     border: none;
@@ -78,7 +77,13 @@ img {
 
 .form-style select{
     -webkit-appearance: menulist-button;
-    height:35px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 7px;
+    width: 100%;
+    color:#8a97a0;
+    margin-bottom: 30px;
 }
 
 .form-style .number {
