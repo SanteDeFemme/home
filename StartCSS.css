@@ -1,4 +1,4 @@
-input select {
+input {
   font-size: 20px;
 }
 #heightI {
@@ -55,7 +55,6 @@ img {
   border-radius: 5px;
    overflow: hidden;
    width: 240px;
-  background-color: #3b8ec2;
 }
 
 .styled-select select {
