@@ -4,6 +4,9 @@
   font-family: Poppins;
   margin: 45px;
 }
+html {
+    background-color: #F5DAE3;
+}
 
 a {
   color: Black;
