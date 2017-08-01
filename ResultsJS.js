@@ -10,7 +10,6 @@ function getParams(){
 	}
 	return params;
 }
-window.onload = submitToResults();
 params = getParams();
 this.age = unescape(params["age"]);
 this.heightF = unescape(params["heightF"]);
@@ -38,46 +37,47 @@ if (this.gym == "yes") {
 else if (this.gym == "no") {
 	this.gymBool = false;
 }
+window.onload = submitToResults();
 
 function submitToResults() {
-var resultsStr = "";
-var personA = "School can be time consuming, so in between your course load you can try these exercises. You can also stay \
-active by joining a school team! . Remember it is important to also maintain this routine with a healthy diet and mental \
-health. https://www.rodalewellness.com/fitness/bodyweight-exercises \
-http://www.womenshealthmag.com/fitness/home-workouts \
-http://www.shape.com/fitness/workouts/ultimate-home-workout \
-https://www.popsugar.com/fitness/Printable-Total-Body--Equipment-Workout-2058846";
+	var resultsStr = "";
+	var personA = "School can be time consuming, so in between your course load you can try these exercises. You can also stay \
+	active by joining a school team! . Remember it is important to also maintain this routine with a healthy diet and mental \
+	health. https://www.rodalewellness.com/fitness/bodyweight-exercises \
+	http://www.womenshealthmag.com/fitness/home-workouts \
+	http://www.shape.com/fitness/workouts/ultimate-home-workout \
+	https://www.popsugar.com/fitness/Printable-Total-Body--Equipment-Workout-2058846";
 	
-var personB = "If you are able to go to the gym, you can try these exercises. Remember to take at least one day of rest per \
-week to let your body relax. Remember it is important to also maintain this routine with a healthy diet and mental health. \
-https://www.bodybuilding.com/content/ultimate-beginners-machine-workout-for-women.html \
-http://www.shape.com/fitness/workouts/4-week-weight-training-plan-women \
-Try this body shape specific workout routine! \
-http://www.womenshealthmag.com/fitness/best-workout-for-your-body-type";
+	var personB = "If you are able to go to the gym, you can try these exercises. Remember to take at least one day of rest per \
+	week to let your body relax. Remember it is important to also maintain this routine with a healthy diet and mental health. \
+	https://www.bodybuilding.com/content/ultimate-beginners-machine-workout-for-women.html \
+	http://www.shape.com/fitness/workouts/4-week-weight-training-plan-women \
+	Try this body shape specific workout routine! \
+	http://www.womenshealthmag.com/fitness/best-workout-for-your-body-type";
 	
-var personC = "If you are busy with work, try these at home exercises to keep up a fitness routine. Remember to take at \
-least one day of rest per week to let your body relax. Remember it is important to also maintain this routine with a healthy \
-diet and mental health. \
-https://www.rodalewellness.com/fitness/bodyweight-exercises \
-http://www.womenshealthmag.com/fitness/home-workouts \
-http://www.shape.com/fitness/workouts/ultimate-home-workout \
-https://www.popsugar.com/fitness/Printable-Total-Body--Equipment-Workout-2058846";
-	
-var personD = "Based on your work schedule, you can find time for a gym membership. Remember to take at least one day of rest \
-per week to let your body relax. Remember it is important to also maintain this routine with a healthy diet and mental health. \
-https://www.bodybuilding.com/content/ultimate-beginners-machine-workout-for-women.html \
-http://www.shape.com/fitness/workouts/4-week-weight-training-plan-women \
-Try this body shape specific workout routine! \
-http://www.womenshealthmag.com/fitness/best-workout-for-your-body-type";
-if (this.occupation == "student" && this.gym == "no") {
-	 resultsStr = "personA";
-}if (this.occupation == "student" && this.gym == "yes") {
-	 resultsStr = "personB";
-}if (this.occupation == "work" && this.gym == "no") {
-	 resultsStr = "personC";
-}if (this.occupation == "work" && this.gym == "yes") {
+	var personC = "If you are busy with work, try these at home exercises to keep up a fitness routine. Remember to take at \
+	least one day of rest per week to let your body relax. Remember it is important to also maintain this routine with a healthy \
+	diet and mental health. \
+	https://www.rodalewellness.com/fitness/bodyweight-exercises \
+	http://www.womenshealthmag.com/fitness/home-workouts \
+	http://www.shape.com/fitness/workouts/ultimate-home-workout \
+	https://www.popsugar.com/fitness/Printable-Total-Body--Equipment-Workout-2058846";
+
+	var personD = "Based on your work schedule, you can find time for a gym membership. Remember to take at least one day of rest \
+	per week to let your body relax. Remember it is important to also maintain this routine with a healthy diet and mental health. \
+	https://www.bodybuilding.com/content/ultimate-beginners-machine-workout-for-women.html \
+	http://www.shape.com/fitness/workouts/4-week-weight-training-plan-women \
+	Try this body shape specific workout routine! \
+	http://www.womenshealthmag.com/fitness/best-workout-for-your-body-type";
+	if (this.occupation == "student" && this.gym == "no") {
+		 resultsStr = "personA";
+	} else if (this.occupation == "student" && this.gym == "yes") {
+		 resultsStr = "personB";
+	} else if (this.occupation == "work" && this.gym == "no") {
+		 resultsStr = "personC";
+	} else if (this.occupation == "work" && this.gym == "yes") {
 	 resultsStr = "personD";
-}
+	}
 	document.getElementById("resultsPara").innerHTML = resultsStr;
 }
 	
