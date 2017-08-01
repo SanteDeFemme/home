@@ -10,7 +10,6 @@ function getParams(){
 	}
 	return params;
 }
-function submitted() {
 	params = getParams();
 	this.age = unescape(params["age"]);
 	this.heightF = unescape(params["heightF"]);
@@ -39,7 +38,6 @@ function submitted() {
 		this.gymBool = false;
 	}
 	window.onload = submitToResults();
-	}
 
 function submitToResults() {
 	var resultsStr = "";
