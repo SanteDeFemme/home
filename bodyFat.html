@@ -6,12 +6,19 @@
     <title>Body Fat</title>
   </head>
   <body>
-    Weight (pounds): <input id="weight" type="text"><br>
-    Wrist Circumference (inches, widest point): <input id="wrist" type="text"><br>
-    Waist Circumference (inches, at navel): <input id="waist" type="text"><br>
-    Hip Circumference (inches, widest point): <input id="hip" type="text"><br>
-    Forearm Circumference (inches, widest point): <input id="forearm" type="text"><br><br>
-    <button onclick="findBodyFat()">Submit</button>
+    <div class="form-style">
+    <form>
+      <fieldset>
+        <legend><span class="number">1</span>Step 1</legend>
+        Weight (pounds): <input id="weight" type="text"><br>
+        Wrist Circumference (inches, widest point): <input id="wrist" type="text"><br>
+        Waist Circumference (inches, at navel): <input id="waist" type="text"><br>
+        Hip Circumference (inches, widest point): <input id="hip" type="text"><br>
+        Forearm Circumference (inches, widest point): <input id="forearm" type="text"><br><br>
+        <button onclick="findBodyFat()">Submit</button>
+      </fieldset>
+    </form>
+    </div>
     <p id="resultBodyFat"></p>
     <p id="resultLeanBodyMass"></p>
     <table id="tableResult" style="visibility:hidden;">
